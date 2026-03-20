@@ -1,0 +1,53 @@
+BHARATIYA SAKSHYA ADHINIYAM, 2023 (BSA)
+Effective: July 1, 2024 | Replaces: Indian Evidence Act, 1872
+
+Section 2 — Definitions
+In this Adhiniyam, unless the context otherwise requires: "Court" includes all Judges and Magistrates, and all persons, except arbitrators, legally authorised to take evidence; "fact" means and includes any thing, state of things, or relation of things, capable of being perceived by the senses; any mental condition of which any person is conscious; "relevant" — one fact is said to be relevant to another when the one is connected with the other in any of the ways referred to in the provisions of this Adhiniyam relating to the relevancy of facts; "document" means any matter expressed or described upon any substance by means of letters, figures or marks, or by more than one of those means, intended to be used, or which may be used, for the purpose of recording that matter; "evidence" means and includes all statements which the Court permits or requires to be made before it by witnesses, in relation to matters of fact under inquiry; all documents including electronic records produced for the inspection of the Court.
+
+Section 4 — May Presume, Shall Presume, Conclusive Proof
+Whenever it is provided by this Adhiniyam that the Court may presume a fact, it may either regard such fact as proved, unless and until it is disproved, or may call for proof of it. Whenever it is directed by this Adhiniyam that the Court shall presume a fact, it shall regard such fact as proved, unless and until it is disproved. When one fact is declared by this Adhiniyam to be conclusive proof of another, the Court shall, on proof of the one fact, regard the other as proved, and shall not allow evidence to be given for the purpose of disproving it.
+
+Section 14 — Admissions
+An admission is a statement, oral or documentary or contained in electronic form, which suggests any inference as to any fact in issue or relevant fact, and which is made by any of the persons, and under the circumstances, hereinafter mentioned.
+
+Section 22 — Confession Caused by Inducement, Threat or Promise
+A confession made by an accused person is irrelevant in a criminal proceeding, if the making of the confession appears to the Court to have been caused by any inducement, threat or promise having reference to the charge against the accused person, proceeding from a person in authority and sufficient, in the opinion of the Court, to give the accused person grounds which would appear to him reasonable for supposing that by making it he would gain any advantage or avoid any evil of a temporal nature in reference to the proceedings against him.
+
+Section 23 — Confession to Police Officer
+No confession made to a police officer shall be proved as against a person accused of any offence.
+
+Section 28 — Confession Made After Removal of Impression Caused by Inducement
+If such a confession as is referred to in section 22 is made after the impression caused by any such inducement, threat or promise has, in the opinion of the Court, been fully removed, it is relevant.
+
+Section 39 — Opinion of Experts
+When the Court has to form an opinion upon a point of foreign law or of science or art, or as to identity of handwriting or finger impressions, the opinions upon that point of persons specially skilled in such foreign law, science or art, or in questions as to identity of handwriting or finger impressions are relevant facts. Such persons are called experts.
+
+Section 40 — Opinion as to Handwriting
+When the Court has to form an opinion as to the person by whom any document was written or signed, the opinion of any person acquainted with the handwriting of the person by whom it is supposed to be written or signed that it was or was not written or signed by that person is a relevant fact.
+
+Section 57 — Relevancy of Character
+In criminal proceedings the fact that the person accused is of a good character, is relevant. In criminal proceedings, the fact that the accused person is of a bad character is irrelevant, unless evidence has been given that he is of a good character, in which case it becomes relevant.
+
+Section 63 — Admissibility of Electronic Records
+Notwithstanding anything contained in this Adhiniyam, any information contained in an electronic record which is printed on a paper, stored, recorded or copied in optical or magnetic media or semiconductor memory which is produced by a computer (hereinafter referred to as the computer output) shall be deemed to be also a document, if the conditions mentioned in this section are satisfied in relation to the information and computer in question and shall be admissible in any proceedings, without further proof or production of the original, as evidence of any contents of the original or of any fact stated therein of which direct evidence would be admissible. The conditions referred to in sub-section (1) in respect of a computer output shall be the following, namely: the computer output containing the information was produced by the computer during the period over which the computer was used regularly to store or process information for the purposes of any activities regularly carried on over that period by the person having lawful control over the use of the computer; during the said period, information of the kind contained in the electronic record or of the kind from which the information so contained is derived was regularly fed into the computer in the ordinary course of the said activities; throughout the material part of the said period, the computer was operating properly or, if not, then in respect of any period in which it was not operating properly or was out of operation during that part of the period, was not such as to affect the electronic record or the accuracy of its contents; and the information contained in the electronic record reproduces or is derived from such information fed into the computer in the ordinary course of the said activities. A certificate identifying the electronic record containing the statement and describing the manner in which it was produced giving the particulars of any device involved in the production of that electronic record, dealing with any of the matters to which the conditions mentioned in sub-section (2) relate, and purporting to be signed by a person occupying a responsible official position in relation to the operation of the relevant device or the management of the relevant activities (whichever is appropriate) shall be evidence of any matter stated in the certificate; and for the purposes of this sub-section it shall be sufficient for a matter to be stated to the best of the knowledge and belief of the person stating it.
+
+Section 64 — Proof of Electronic Records
+The contents of electronic records may be proved in accordance with the provisions of section 63.
+
+Section 67 — Proof of Signature and Handwriting of Person Who is Dead
+If the signature or the handwriting of any person alleged to have signed or to have written any document is in issue, any signature or handwriting purporting to be the signature or handwriting of that person may be compared with others admitted or proved to his satisfaction to be the signature or the handwriting of that person.
+
+Section 104 — Burden of Proof
+Whoever desires any Court to give judgment as to any legal right or liability dependent on the existence of facts which he asserts, must prove that those facts exist. When a person is bound to prove the existence of any fact, it is said that the burden of proof lies on that person.
+
+Section 105 — On Whom Burden of Proof Lies
+The burden of proof in a suit or proceeding lies on that person who would fail if no evidence at all were given on either side.
+
+Section 106 — Burden of Proving Fact Especially Within Knowledge
+When any fact is especially within the knowledge of any person, the burden of proving that fact is upon him.
+
+Section 114 — Court May Presume Existence of Certain Facts
+The Court may presume the existence of any fact which it thinks likely to have happened, regard being had to the common course of natural events, human conduct and public and private business, in their relation to the facts of the particular case.
+
+Section 118 — Who May Testify
+All persons shall be competent to testify unless the Court considers that they are prevented from understanding the questions put to them, or from giving rational answers to those questions, by tender years, extreme old age, disease, whether of body or mind, or any other cause of the same kind.

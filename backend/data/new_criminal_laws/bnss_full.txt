@@ -1,0 +1,399 @@
+BHARATIYA NAGARIK SURAKSHA SANHITA, 2023 (BNSS)
+Effective: July 1, 2024 | Replaces: Code of Criminal Procedure, 1973
+Total Sections: 531 | Chapters: 43
+
+Section 1 — Short Title, Extent and Commencement
+This Sanhita may be called the Bharatiya Nagarik Suraksha Sanhita, 2023. It extends to the whole of India. It shall come into force on such date as the Central Government may, by notification in the Official Gazette, appoint.
+
+Section 2 — Definitions
+In this Sanhita, unless the context otherwise requires: "bailable offence" means an offence which is shown as bailable in the First Schedule, or which is made bailable by any other law for the time being in force; "charge" includes any head of charge when the charge contains more heads than one; "cognizable offence" means an offence for which, and "cognizable case" means a case in which, a police officer may, in accordance with the First Schedule or under any other law for the time being in force, arrest without warrant; "complaint" means the allegation made orally or in writing to a Magistrate, with a view to his taking action under this Sanhita, that some person, whether known or unknown, has committed an offence, but does not include a police report; "High Court" means the High Court for a State; "inquiry" means every inquiry, other than a trial, conducted under this Sanhita by a Magistrate or Court; "investigation" includes all the proceedings under this Sanhita for the collection of evidence conducted by a police officer or by any person (other than a Magistrate) who is authorised by a Magistrate in this behalf; "judicial proceeding" includes any proceeding in the course of which evidence is or may be legally taken on oath; "non-bailable offence" means an offence which is not a bailable offence; "offence" means any act or omission made punishable by any law for the time being in force and includes any act in respect of which a complaint may be made under section 20 of the Cattle Trespass Act, 1871; "officer in charge of a police station" includes, when the officer in charge of the police station is absent from the station-house or unable from illness or other cause to perform his duties, the police officer present at the station-house who is next in rank to such officer and is above the rank of constable or, when the State Government so directs, any other police officer so present; "place" includes a house, building, tent, vehicle and vessel; "police report" means a report forwarded by a police officer to a Magistrate under sub-section (2) of section 193; "police station" means any post or place declared generally or specially by the State Government, to be a police station, and includes any local area specified by the State Government in this behalf; "public place" includes any public conveyance, hotel, shop, or any other place intended for use by, or accessible to, the public; "sub-division" means a sub-division of a district; "summons-case" means a case relating to an offence, and not being a warrant-case; "warrant-case" means a case relating to an offence punishable with death, imprisonment for life or imprisonment for a term exceeding two years.
+
+Section 3 — Construction of References
+In this Sanhita, unless the context otherwise requires, any reference to any enactment not in force in any area shall be construed as a reference to the corresponding law, if any, in force in that area.
+
+Section 4 — Trial of Offences Under Bharatiya Nyaya Sanhita
+All offences under the Bharatiya Nyaya Sanhita, 2023 shall be investigated, inquired into, tried, and otherwise dealt with according to the provisions hereinafter contained.
+
+Section 5 — Saving
+Nothing in this Sanhita shall affect any special or local law for the time being in force, or any special jurisdiction or power conferred, or any special form of procedure prescribed, by any other law for the time being in force.
+
+Section 6 — Classes of Criminal Courts
+Besides the High Courts and the Courts constituted under any law, other than this Sanhita, there shall be, in every State, the following classes of Criminal Courts, namely: Courts of Session; Judicial Magistrates of the first class and, in any metropolitan area, Metropolitan Magistrates; Judicial Magistrates of the second class; and Executive Magistrates.
+
+Section 7 — Territorial Divisions
+Every State shall be a sessions division or shall consist of sessions divisions; and every sessions division shall, for the purposes of this Sanhita, be a district or consist of districts.
+
+Section 8 — Court of Session
+The State Government shall establish a Court of Session for every sessions division, and there shall be a Judge of every such Court, to be appointed by the High Court.
+
+Section 9 — Courts of Judicial Magistrates
+In every district (not being a metropolitan area), there shall be established as many Courts of Judicial Magistrates of the first class and of the second class, and at such places, as the State Government may, after consultation with the High Court, by notification, specify.
+
+Section 10 — Chief Judicial Magistrate and Additional Chief Judicial Magistrate, Etc.
+In every district, the High Court shall appoint a Judicial Magistrate of the first class to be the Chief Judicial Magistrate. The High Court may appoint any Judicial Magistrate of the first class to be an Additional Chief Judicial Magistrate, and such Magistrate shall have all or any of the powers of a Chief Judicial Magistrate under this Sanhita or under any other law for the time being in force as the High Court may direct.
+
+Section 11 — Special Judicial Magistrates
+The High Court may, if requested by the Central or State Government so to do, confer upon any person who holds or has held any post under the Government the powers conferred or conferrable by or under this Sanhita on a Judicial Magistrate of the first class or of the second class, in respect to particular cases or to particular classes of cases, in any local area, not being a metropolitan area.
+
+Section 12 — Chief Metropolitan Magistrate and Additional Chief Metropolitan Magistrate
+In every metropolitan area, the High Court shall appoint a Judicial Magistrate of the first class to be the Chief Metropolitan Magistrate, who shall be vested with the powers of a Chief Judicial Magistrate under this Sanhita.
+
+Section 13 — Special Metropolitan Magistrates
+The High Court may, if requested by the Central or State Government so to do, confer upon any person who holds or has held any post under the Government the powers conferred or conferrable by or under this Sanhita on a Metropolitan Magistrate, in respect to particular cases or to particular classes of cases, in any metropolitan area.
+
+Section 14 — Subordination of Judicial Magistrates
+Every Chief Judicial Magistrate shall be subordinate to the Sessions Judge; and every other Judicial Magistrate shall, subject to the general control of the Sessions Judge, be subordinate to the Chief Judicial Magistrate.
+
+Section 15 — Executive Magistrates
+In every district and in every metropolitan area, the State Government may appoint as many persons as it thinks fit to be Executive Magistrates and shall appoint one of them to be the District Magistrate.
+
+Section 16 — Powers of Magistrates
+The State Government may confer upon any Executive Magistrate all or any of the powers conferred or conferrable by or under this Sanhita on a Judicial Magistrate of the first class or of the second class.
+
+Section 17 — Special Executive Magistrates
+The State Government may appoint, for such term as it may think fit, Executive Magistrates, to be known as Special Executive Magistrates for particular areas or for the performance of particular functions and confer on such Special Executive Magistrates such of the powers as are conferrable under this Sanhita on Executive Magistrates, as it may deem fit.
+
+Section 18 — Local Jurisdiction of Executive Magistrates
+Subject to the control of the State Government, the District Magistrate may, from time to time, define the local limits of the areas within which the Executive Magistrates may exercise all or any of the powers with which they may be invested under this Sanhita.
+
+Section 19 — Subordination of Executive Magistrates
+All Executive Magistrates, other than the Additional District Magistrate, shall be subordinate to the District Magistrate, and every Executive Magistrate (other than the Sub-divisional Magistrate) exercising powers in a sub-division shall also be subordinate to the Sub-divisional Magistrate, subject, however, to the general control of the District Magistrate.
+
+Section 20 — Public Prosecutors
+For every High Court, the Central Government or the State Government shall, after consultation with the High Court, appoint a Public Prosecutor and may also appoint one or more Additional Public Prosecutors, for conducting in such Court, any prosecution, appeal or other proceeding on behalf of the Central Government or State Government, as the case may be.
+
+Section 35 — Arrest of Persons
+Any police officer may without an order from a Magistrate and without a warrant, arrest any person who has been concerned in any cognizable offence, or against whom a reasonable complaint has been made, or credible information has been received, or a reasonable suspicion exists, of his having been so concerned; or who has in his possession without lawful excuse, the burden of proving which excuse shall lie on such person, any implement of house-breaking; or who has been proclaimed as an offender either under this Sanhita or by order of the State Government; or in whose possession anything is found which may reasonably be suspected to be stolen property and who may reasonably be suspected of having committed an offence with reference to such thing; or who obstructs a police officer while in the execution of his duty, or who has escaped, or attempts to escape, from lawful custody; or who is reasonably suspected of being a deserter from any of the Armed Forces of the Union; or who has been concerned in, or against whom a reasonable complaint has been made, or credible information has been received, or a reasonable suspicion exists, of his having been concerned in, any act committed at any place out of India which, if committed in India, would have been punishable as an offence, and for which he is, under any law relating to extradition, or otherwise, liable to be apprehended or detained in custody in India; or who, being a released convict, commits a breach of any rule made under sub-section (5) of section 356; or for whose arrest any requisition, whether written or oral, has been received from another police officer, provided that the requisition specifies the person to be arrested and the offence or other cause for which the arrest is to be made and it appears therefrom that the person might lawfully be arrested without a warrant by the officer who issued the requisition.
+
+Section 36 — Arrest of Persons — Procedure
+A police officer making an arrest under section 35 shall, before making the arrest, inform the person to be arrested of the grounds for such arrest. No unnecessary restraint shall be imposed on the person arrested. The person arrested shall not be subjected to more restraint than is necessary to prevent his escape.
+
+Section 37 — Arrest — How Made
+In making an arrest the police officer or other person making the same shall actually touch or confine the body of the person to be arrested, unless there be a submission to the custody by word or action.
+
+Section 38 — No Unnecessary Restraint
+The person arrested shall not be subjected to more restraint than is necessary to prevent his escape.
+
+Section 39 — Search of Arrested Person
+Whenever a person is arrested by a police officer under a warrant which does not provide for the taking of bail, or under a warrant which provides for the taking of bail but the person arrested cannot furnish bail, and whenever a person is arrested without warrant, or by a private person under a warrant, and cannot legally be admitted to bail, or is unable to furnish bail, the officer making the arrest or, when the arrest is made by a private person, the police officer to whom he makes over the person arrested, may search such person, and place in safe custody all articles, other than necessary wearing-apparel, found upon him and where any article is seized from the arrested person, a receipt showing the articles taken in possession by the police officer shall be given to such person.
+
+Section 40 — Power to Seize Offensive Weapons
+The officer or other person making any arrest under this Sanhita may take from the person arrested any offensive weapons which he has about his person, and shall deliver all weapons so taken to the Court or officer before which or whom the officer or person making the arrest is required by this Sanhita to produce the person arrested.
+
+Section 41 — Arrest by Private Person and Procedure on Such Arrest
+Any private person may arrest or cause to be arrested any person who in his presence commits a non-bailable and cognizable offence, or any proclaimed offender, and, without unnecessary delay, shall make over or cause to be made over any person so arrested to a police officer, or, in the absence of a police officer, take such person or cause him to be taken in custody to the nearest police station.
+
+Section 42 — Arrest by Magistrate
+When any offence is committed in the presence of a Magistrate, whether Executive or Judicial, within his local jurisdiction, he may himself arrest or order any person to arrest the offender, and may thereupon, subject to the provisions herein contained as to bail, commit the offender to custody.
+
+Section 43 — Recapture of Person Escaping from Custody
+If a person in lawful custody escapes or is rescued, the person from whose custody he escaped or was rescued may immediately pursue and arrest him in any place in India.
+
+Section 44 — Assistance to Magistrate or Police Officer
+Every person is bound to assist a Magistrate or police officer reasonably demanding his aid in the taking or preventing the escape of any other person whom such Magistrate or police officer is authorised to arrest; or in the prevention or suppression of a breach of the peace; or in the prevention of any injury attempted to be committed to any railway, canal, telegraph or public property.
+
+Section 47 — Procedure When Police Officer Deputes Subordinate to Arrest Without Warrant
+When any officer in charge of a police station or any police officer making an investigation under Chapter XIII requires any officer subordinate to him to arrest without a warrant (otherwise than in his presence) any person who may lawfully be arrested without a warrant, he shall deliver to the officer required to make the arrest an order in writing, specifying the person to be arrested and the offence or other cause for which the arrest is to be made and the officer so required shall, before making the arrest, notify to the person to be arrested the substance of the order and, if so required by such person, shall show him the order.
+
+Section 48 — Health and Safety of Arrested Person
+The police officer responsible for the arrest of a person shall be responsible for the health and safety of the person arrested.
+
+Section 49 — Arrested Person to Be Informed of Grounds of Arrest and Right to Bail
+A person who is arrested, whether with or without warrant, shall be informed, as soon as may be, of the grounds for such arrest. Every person who is arrested and detained in custody shall be entitled to have one person of his choice informed of his arrest and of the place where he is being held as soon as practicable.
+
+Section 50 — Person Arrested to Be Taken Before Magistrate or Officer in Charge of Police Station Without Delay
+A police officer making an arrest without warrant shall, without unnecessary delay and subject to the provisions herein contained as to bail, take or send the person arrested before a Magistrate having jurisdiction in the case, or before the officer in charge of a police station.
+
+Section 51 — Magistrate to Whom Arrested Person Is to Be Taken
+A police officer making an arrest without warrant shall, without unnecessary delay and subject to the provisions herein contained as to bail, take or send the person arrested before a Magistrate having jurisdiction in the case, or before the officer in charge of a police station.
+
+Section 52 — Examination of Arrested Person by Medical Officer
+When a person who is arrested, whether with or without warrant, alleges, at the time when he is produced before a Magistrate or at any time during the period of his detention in custody that the examination of his body will afford evidence which will disprove the commission by him of any offence or which will establish the commission by any other person of any offence against his body, the Magistrate shall, if requested by the arrested person so to do direct the examination of the body of such person by a registered medical practitioner unless the Magistrate considers that the request is made for the purpose of vexation or delay or for defeating the ends of justice.
+
+Section 53 — Identification of Arrested Persons
+The Magistrate of a district, on the application of the officer in charge of a police station, may direct that measurements or photograph or voice sample or any other examination of any person who is in lawful custody be taken by a police officer.
+
+Section 57 — Person Arrested Not to Be Detained More Than Twenty-Four Hours
+No police officer shall detain in custody a person arrested without warrant for a longer period than under all the circumstances of the case is reasonable, and such period shall not, in the absence of a special order of a Magistrate under section 187, exceed twenty-four hours exclusive of the time necessary for the journey from the place of arrest to the Magistrate's Court.
+
+Section 58 — Police to Report Apprehensions
+Officers in charge of police stations shall report to the District Magistrate, or, if the District Magistrate so directs, to the Sub-divisional Magistrate, the cases of all persons arrested without warrant, within the limits of their respective stations, whether such persons have been admitted to bail or otherwise.
+
+Section 60 — Power on Escape to Pursue and Retake
+If a person in lawful custody escapes or is rescued, the person from whose custody he escaped or was rescued may immediately pursue and arrest him in any place in India.
+
+Section 61 — Provisions of Sections 100 and 101 to Apply to Arrests
+The provisions of sections 100 and 101 shall apply to arrests under this Chapter, so far as they are applicable.
+
+Section 62 — Arrest to Be Made Strictly According to This Sanhita
+No arrest shall be made except in accordance with the provisions of this Sanhita or of some other law for the time being in force providing for arrest.
+
+Section 63 — Summons
+Every summons issued by a Court under this Sanhita shall be in writing, in duplicate, signed by the presiding officer of such Court or by such other officer as the High Court may, from time to time, by rule direct, and shall bear the seal of the Court.
+
+Section 64 — Service of Summons
+Every summons shall be served by a police officer, or subject to such rules as the State Government may make in this behalf, by an officer of the Court issuing it or other public servant. The summons shall, if practicable, be served personally on the person summoned, by delivering or tendering to him one of the duplicates of the summons.
+
+Section 65 — Service When Persons Summoned Cannot Be Found
+Where the person summoned cannot, by the exercise of due diligence, be found, the summons may be served by leaving one of the duplicates for him with some adult male member of his family residing with him, and the person with whom the summons is so left shall, if so required by the serving officer, sign a receipt therefor on the back of the other duplicate.
+
+Section 70 — Form of Warrant of Arrest and Duration
+Every warrant of arrest issued by a Court under this Sanhita shall be in writing, signed by the presiding officer of such Court, and shall bear the seal of the Court. Every such warrant shall remain in force until it is cancelled by the Court which issued it, or until it is executed.
+
+Section 71 — Power to Direct Security to Be Taken
+Any Court issuing a warrant for the arrest of any person may in its discretion direct by endorsement on the warrant that, if such person executes a bond with sufficient sureties for his attendance before the Court at a specified time and thereafter until otherwise directed by the Court, the officer to whom the warrant is directed shall take such security and shall release such person from custody.
+
+Section 72 — Warrants to Whom Directed
+A warrant of arrest shall ordinarily be directed to one or more police officers; but the Court issuing such a warrant may, if its immediate execution is necessary and no police officer is immediately available, direct it to any other person or persons, and such person or persons shall execute the same.
+
+Section 73 — Warrant May Be Directed to Any Person
+Notwithstanding anything contained in section 72, a Court may, in any case in which it is empowered to issue a warrant for the arrest of any person, direct such warrant to any person within its local jurisdiction who is a landholder, farmer or manager of land belonging to the Government; and such person shall be bound to execute such warrant, and shall have all the powers necessary for its execution.
+
+Section 74 — Warrant Directed to Police Officer
+A warrant directed to any police officer may also be executed by any other police officer whose name is endorsed upon the warrant by the officer to whom it is directed or endorsed.
+
+Section 75 — Notification of Substance of Warrant
+The police officer or other person executing a warrant of arrest shall notify the substance thereof to the person to be arrested, and, if so required, shall show him the warrant.
+
+Section 76 — Person Arrested to Be Brought Before Court Without Delay
+The police officer or other person executing a warrant of arrest shall (subject to the provisions of section 71 as to security) without unnecessary delay bring the person arrested before the Court before which he is required by law to produce such person.
+
+Section 77 — Where Warrant May Be Executed
+A warrant of arrest may be executed at any place in India.
+
+Section 78 — Warrant Forwarded for Execution Outside Jurisdiction
+When a warrant is to be executed beyond the local jurisdiction of the Court issuing it, such Court may, instead of directing the warrant to a police officer within its jurisdiction, forward it by post or otherwise to any Executive Magistrate or District Superintendent of Police or Commissioner of Police within the local limits of whose jurisdiction it is to be executed; and the Executive Magistrate or District Superintendent or Commissioner shall endorse his name thereon, and if practicable, cause it to be executed in the manner hereinbefore provided.
+
+Section 79 — Warrant Directed to Police Officer for Execution Outside Jurisdiction
+When a warrant directed to a police officer is to be executed beyond the local jurisdiction of the Court issuing the same, he shall ordinarily take it for endorsement either to an Executive Magistrate or to a police officer not below the rank of an officer in charge of a police station, within the local limits of whose jurisdiction the warrant is to be executed.
+
+Section 80 — Procedure on Arrest of Person Against Whom Warrant Is Issued
+When a warrant of arrest is executed outside the district in which it was issued, the person arrested shall, unless the Court which issued the warrant is within thirty kilometres of the place of arrest or is nearer than the Executive Magistrate or District Superintendent of Police or Commissioner of Police within the local limits of whose jurisdiction the arrest was made, or unless security is taken under section 71, be taken before such Magistrate or District Superintendent or Commissioner.
+
+Section 94 — Summons to Produce Document or Other Thing
+Whenever any Court or any officer in charge of a police station considers that the production of any document or other thing is necessary or desirable for the purposes of any investigation, inquiry, trial or other proceeding under this Sanhita by or before such Court or officer, such Court may issue a summons, or such officer a written order, to the person in whose possession or power such document or thing is believed to be, requiring him to attend and produce it, or to produce it, at the time and place stated in the summons or order.
+
+Section 95 — Procedure as to Letters and Telegrams
+Any document, parcel or thing in the custody of the postal or telegraph authority may be detained and opened in the manner hereinafter mentioned, if any Court considers that such document, parcel or thing contains any matter the production of which is necessary or desirable for the purposes of any investigation, inquiry, trial or other proceeding under this Sanhita.
+
+Section 96 — When Search Warrant May Be Issued
+Where any Court has reason to believe that a person to whom a summons or order under section 94 or a requisition under sub-section (1) of section 95 has been, or might be, addressed, will not or would not produce the document or thing as required by such summons or requisition, or where such document or thing is not known to the Court to be in the possession of any person, or where the Court considers that the purposes of any inquiry, trial or other proceeding under this Sanhita will be served by a general search or inspection, it may issue a search-warrant; and the person to whom such warrant is directed, may search or inspect in accordance therewith and the provisions hereinafter contained.
+
+Section 97 — Search of House Suspected to Contain Stolen Property, Forged Documents, Etc.
+If a District Magistrate, Sub-divisional Magistrate or Magistrate of the first class, upon information and after such inquiry as he thinks necessary, has reason to believe that any place is used for the deposit or sale of stolen property, or for the deposit, sale or production of any obscene object referred to in section 292 of the Bharatiya Nyaya Sanhita, 2023, or that any obscene matter is kept in any place for the purpose of being published or distributed or exhibited, he may by warrant authorise any police officer above the rank of a constable to search such place in the manner specified in the warrant, and, if necessary, to arrest such persons and seize such things found therein as he thinks proper.
+
+Section 98 — Power to Declare Certain Publications Forfeited and to Issue Search Warrants for the Same
+Where any newspaper, book or other document, wherever printed, appears to the State Government to contain any matter the publication of which is punishable under section 152 or section 196 or section 197 or section 294 or section 295 or section 299 of the Bharatiya Nyaya Sanhita, 2023, the State Government may, by notification, stating the grounds of its opinion, declare every copy of the issue of the newspaper containing such matter, and every copy of such book or other document to be forfeited to Government, and thereupon any police officer may seize the same wherever found in India, and any Magistrate may by warrant authorise any police officer not below the rank of sub-inspector to enter upon and search for the same in any premises where any copy of such issue or any such book or other document may be or may be reasonably suspected to be.
+
+Section 100 — Persons in Charge of Closed Place to Allow Search
+Whenever any place liable to search or inspection under this Chapter is closed, any person residing in, or being in charge of, such place, shall, on demand of the officer or other person executing the warrant, and on production of the warrant, allow him free ingress thereto, and afford all reasonable facilities for a search therein.
+
+Section 101 — Search to Be Made in Presence of Witnesses
+Before making a search under this Chapter, the officer or other person about to make it shall call upon two or more independent and respectable inhabitants of the locality in which the place to be searched is situate or of any other locality if no such inhabitant of the said locality is available or is willing to be a witness to the search, to attend and witness the search and may issue an order in writing to them or any of them so to do.
+
+Section 105 — Reciprocal Arrangements Regarding Processes
+Where a Court in the territories to which this Sanhita extends (hereafter in this section referred to as the said territories) desires that a summons issued by it shall be served on a person, or that a warrant issued by it shall be executed, in any place outside the said territories (not being a place within the jurisdiction of a Court established under a law relating to Courts established in India outside the said territories), it shall send such summons or warrant in duplicate to a Magistrate within whose jurisdiction such person resides or is, or such place is situated, as the case may be, and that Magistrate shall cause the summons or warrant to be served or executed, and shall return it to the Court with an endorsement certifying the manner in which it has been served or executed.
+
+Section 107 — Security for Keeping the Peace on Conviction
+When any person is convicted of any offence punishable under Chapter XI or Chapter XVII of the Bharatiya Nyaya Sanhita, 2023, or under section 312 of that Sanhita, and the Court before which he is convicted is of opinion that it is necessary to take security from such person for keeping the peace, the Court may, at the time of passing sentence on such person, order him to execute a bond, with or without sureties, for keeping the peace for such period, not exceeding three years, as it thinks fit.
+
+Section 108 — Security for Keeping the Peace in Other Cases
+Whenever any Executive Magistrate receives information that any person is likely to commit a breach of the peace or disturb the public tranquility or to do any wrongful act that may probably occasion a breach of the peace or disturb the public tranquility and is of opinion that there is sufficient ground for proceeding, he may, in the manner hereinafter provided, require such person to show cause why he should not be ordered to execute a bond, with or without sureties, for keeping the peace for such period, not exceeding one year, as the Magistrate thinks fit.
+
+Section 109 — Security for Good Behaviour from Persons Disseminating Seditious Matters
+Whenever any Executive Magistrate receives information that there is within his local jurisdiction any person who, within or without such jurisdiction, either orally or in writing or in any other manner, intentionally disseminates or attempts to disseminate or abets the dissemination of any matter the publication of which is punishable under section 152 or section 196 or section 197 of the Bharatiya Nyaya Sanhita, 2023, or who is likely to commit any offence under Chapter VII of that Sanhita, and is of opinion that there is sufficient ground for proceeding, the Magistrate may, in the manner hereinafter provided, require such person to show cause why he should not be ordered to execute a bond, with or without sureties, for his good behaviour for such period, not exceeding one year, as the Magistrate thinks fit.
+
+Section 173 — Information in Cognizable Cases (FIR)
+Every information relating to the commission of a cognizable offence, if given orally to an officer in charge of a police station, shall be reduced to writing by him or under his direction, and be read over to the informant; and every such information, whether given in writing or reduced to writing as aforesaid, shall be signed by the person giving it, and the substance thereof shall be entered in a book to be kept by such officer in such form as the State Government may prescribe in this behalf. A copy of the information as recorded under sub-section (1) shall be given forthwith, free of cost, to the informant. Any person aggrieved by a refusal on the part of an officer in charge of a police station to record the information referred to in sub-section (1) may send the substance of such information, in writing and by post, to the Superintendent of Police concerned who, if satisfied that such information discloses the commission of a cognizable offence, shall either investigate the case himself or direct an investigation to be made by any police officer subordinate to him, in the manner provided by this Sanhita, and such officer shall have all the powers of an officer in charge of the police station in relation to that offence. If an officer in charge of a police station refuses to register an information referred to in sub-section (1), the aggrieved person may make an application to the Superintendent of Police. The information shall also be recorded by audio-video electronic means.
+
+Section 174 — Police Officer's Power to Investigate Cognizable Case
+Any officer in charge of a police station may, without the order of a Magistrate, investigate any cognizable case which a Court having jurisdiction over the local area within the limits of such station would have power to inquire into or try under the provisions of Chapter XIII.
+
+Section 175 — Procedure Where Cognizable Offence Is Suspected
+When an officer in charge of a police station or some other police officer specially empowered by the State Government in that behalf receives information of a design to commit any cognizable offence, it shall be lawful for him to take such measures as may be necessary for preventing the commission thereof, and, if he thinks fit, to arrest, without warrant, the person designing to commit the offence.
+
+Section 176 — Investigation by Police
+Every investigation under this Chapter shall be completed without unnecessary delay. As soon as it is completed, the officer in charge of the police station shall forward to a Magistrate empowered to take cognizance of the offence on a police report, a report in the form prescribed by the State Government.
+
+Section 177 — Procedure When Investigation Cannot Be Completed in Twenty-Four Hours
+Whenever any person is arrested and detained in custody, and it appears that the investigation cannot be completed within the period of twenty-four hours fixed by section 57, and there are grounds for believing that the accusation or information is well-founded, the officer in charge of the police station or the police officer making the investigation, if he is not below the rank of sub-inspector, shall forthwith transmit to the nearest Judicial Magistrate a copy of the entries in the diary hereinafter prescribed relating to the case, and shall at the same time forward the accused to such Magistrate.
+
+Section 178 — Magistrate's Power to Detain Accused
+A Magistrate to whom an accused person is forwarded under section 177 may, whether he has or has not jurisdiction to try the case, from time to time, authorise the detention of the accused in such custody as such Magistrate thinks fit, for a term not exceeding fifteen days in the whole; and if he has no jurisdiction to try the case or commit it for trial, and considers further detention unnecessary, he may order the accused to be forwarded to a Magistrate having such jurisdiction.
+
+Section 179 — Detention in Custody Beyond Fifteen Days
+Whenever any person is arrested and detained in custody, and it appears that the investigation cannot be completed within the period of fifteen days, the Magistrate may authorise the detention of the accused otherwise than in the custody of the police, beyond the period of fifteen days, if he is satisfied that adequate grounds exist for doing so, but no Magistrate shall authorise the detention of the accused person in custody under this section for a total period exceeding: ninety days, where the investigation relates to an offence punishable with death, imprisonment for life or imprisonment for a term of not less than ten years; sixty days, where the investigation relates to any other offence.
+
+Section 180 — Examination of Witnesses by Police
+Any police officer making an investigation under this Chapter, or any police officer not below such rank as the State Government may, by general or special order, prescribe in this behalf, acting on the requisition of such officer, may examine orally any person supposed to be acquainted with the facts and circumstances of the case. Such person shall be bound to answer truly all questions relating to such case put to him by such officer, other than questions the answers to which would have a tendency to expose him to a criminal charge or to a penalty or forfeiture.
+
+Section 181 — Examination of Witnesses — Statements to Be Recorded
+The police officer may reduce into writing any statement made to him in the course of an examination under section 180, and if he does so, he shall make a separate and true record of the statement of each such person whose statement he records.
+
+Section 182 — Statements to Police Not to Be Signed — Use of Such Statements
+No statement made by any person to a police officer in the course of an investigation under this Chapter, shall, if reduced to writing, be signed by such person; and no such statement or any record thereof, whether in a police diary or otherwise, or any part of such statement or record, shall be used for any purpose, save as hereinafter provided, at any inquiry or trial in respect of any offence under investigation at the time when such statement was made.
+
+Section 183 — Statements Before Magistrate
+Any Metropolitan Magistrate or Judicial Magistrate may, whether or not he has jurisdiction in the case, record any statement or confession made to him in the course of an investigation under this Chapter or under any other law for the time being in force, or at any time afterwards before the commencement of the inquiry or trial.
+
+Section 184 — How Statements and Confessions Are to Be Recorded
+Statements or confessions under section 183 shall be recorded in the manner provided in section 316 for the recording of evidence.
+
+Section 185 — Magistrate Not to Record Statement or Confession Made to Police Officer
+No Magistrate shall record any confession or statement made to him by a person who is in the custody of a police officer, unless the Magistrate is satisfied that the confession or statement was not made under any compulsion.
+
+Section 186 — Discharge of Person Apprehended
+No person who has been arrested by a police officer shall be discharged except on his own bond, or on bail, or under the special order of a Magistrate.
+
+Section 187 — Special Powers of Magistrate
+Any Magistrate of the first class and any Magistrate of the second class specially empowered in this behalf by the State Government may, if he thinks fit, direct, at any stage of an investigation under this Chapter, that further investigation of the offence shall be made by an officer not below the rank of Inspector of Police.
+
+Section 188 — Procedure When Investigation Is Conducted Outside India
+When an investigation is conducted in relation to an offence committed outside India, the provisions of this Chapter shall apply as if the offence had been committed within India.
+
+Section 189 — Reports of Police Officer on Completion of Investigation
+Every investigation under this Chapter shall be completed without unnecessary delay, and, on completion thereof, the officer in charge of the police station shall forward to a Magistrate empowered to take cognizance of the offence on a police report, a report in the form prescribed by the State Government.
+
+Section 190 — Cognizance of Offences by Magistrates
+Subject to the provisions of this Chapter, any Magistrate of the first class, and any Magistrate of the second class specially empowered in this behalf under sub-section (2), may take cognizance of any offence upon receiving a complaint of facts which constitute such offence; upon a police report of such facts; upon information received from any person other than a police officer, or upon his own knowledge, that such offence has been committed.
+
+Section 191 — Cognizance of Offences by Courts of Session
+The Court of Session shall not take cognizance of any offence as a Court of original jurisdiction unless the case has been committed to it by a Magistrate under this Sanhita.
+
+Section 192 — Making Over or Withdrawal of Cases by Magistrates
+Any Chief Judicial Magistrate may, after taking cognizance of an offence, make over the case for inquiry or trial to any competent Magistrate subordinate to him.
+
+Section 193 — Police Report to Magistrate
+Every investigation under this Chapter shall be completed without unnecessary delay and, as soon as it is completed, the officer in charge of the police station shall forward to a Magistrate empowered to take cognizance of the offence on a police report, a report in the form prescribed by the State Government, setting forth the names of the parties, the nature of the information, the names of the persons who appear to be acquainted with the circumstances of the case, whether any offence appears to have been committed and, if so, by whom, whether the accused has been arrested, whether he has been released on his bond and, if so, whether with or without sureties, and whether he has been forwarded in custody under section 187.
+
+Section 207 — Supply of Copies of Documents to Accused
+In any case where the proceeding has been instituted on a police report, the Magistrate shall without delay furnish to the accused, free of cost, a copy of each of the following: the police report; the first information report recorded under section 173; the statements recorded under sub-section (3) of section 180 of all persons whom the prosecution proposes to examine as its witnesses, excluding therefrom any part in regard to which a request for such exclusion has been made by the police officer under sub-section (6) of section 193; the confessions and statements, if any, recorded under section 183; any other document or relevant extract thereof forwarded to the Magistrate with the police report under sub-section (5) of section 193.
+
+Section 208 — Supply of Copies of Statements and Documents to Accused in Other Cases Triable by Court of Session
+Where, in a case instituted otherwise than on a police report, it appears to the Magistrate issuing process under section 204 that the offence is triable exclusively by the Court of Session, the Magistrate shall without delay furnish to the accused, free of cost, a copy of each of the following: the statements recorded under section 183 of all persons whom the prosecution proposes to examine as its witnesses; the statements and confessions, if any, recorded under section 183; any documents produced before the Magistrate on which the prosecution proposes to rely.
+
+Section 209 — Commitment of Case to Court of Session When Offence Is Triable Exclusively by It
+When in a case instituted on a police report or otherwise, the accused appears or is brought before the Magistrate and it appears to the Magistrate that the offence is triable exclusively by the Court of Session, he shall commit the case to the Court of Session, and subject to the provisions of this Sanhita relating to bail, remand the accused to custody until such commitment has been made.
+
+Section 210 — Procedure to Be Followed When There Is a Complaint Case and Police Investigation in Respect of the Same Offence
+When in a case instituted otherwise than on a police report (hereinafter referred to as a complaint case), it is made to appear to the Magistrate, during the course of the inquiry or trial held by him, that an investigation by the police is in progress in relation to the offence which is the subject-matter of the inquiry or trial held by him, the Magistrate shall stay the proceedings of such inquiry or trial and call for a report on the matter from the police officer conducting the investigation, and if a report is made by such police officer under sub-section (2) of section 193 and on such report cognizance of any offence is taken by the Magistrate, the Magistrate shall inquire into or try together the complaint case and the case arising out of the police report as if both the cases were instituted on a police report.
+
+Section 211 — Charges — Contents of Charge
+Every charge under this Sanhita shall state the offence with which the accused is charged. If the law which creates the offence gives it any specific name, the offence may be described in the charge by that name only. If the law which creates the offence does not give it any specific name, so much of the definition of the offence must be stated as to give the accused notice of the matter with which he is charged. The law and the section of the law against which the offence is said to have been committed shall be mentioned in the charge. The fact that the charge is made is equivalent to a statement that every legal condition required by law to constitute the offence charged was fulfilled in the particular case. The charge shall be written in the language of the Court. If the accused, having been previously convicted of any offence, is liable, by reason of such previous conviction, to enhanced punishment, or to punishment of a different kind, for a subsequent offence, and it is intended to prove such previous conviction for the purpose of affecting the punishment which the Court may think fit to award for the subsequent offence, the fact, date and place of the previous conviction shall be stated in the charge; and if such statement has been omitted, the Court may add it at any time before sentence is passed.
+
+Section 212 — Particulars as to Time, Place and Person
+The charge shall contain such particulars as to the time and place of the alleged offence, and the person (if any) against whom, or the thing (if any) in respect of which, it was committed, as are reasonably sufficient to give the accused notice of the matter with which he is charged.
+
+Section 213 — When Manner of Committing Offence Must Be Stated
+When the nature of the case is such that the particulars mentioned in sections 211 and 212 do not give the accused sufficient notice of the matter with which he is charged, the charge shall also contain such particulars of the manner in which the alleged offence was committed as will be sufficient for that purpose.
+
+Section 214 — Words in Charge Taken in Sense of Law Under Which Offence Is Punishable
+In every charge words used in describing an offence shall be deemed to have been used in the sense attached to them respectively by the law under which such offence is punishable.
+
+Section 215 — Effect of Errors
+No error in stating either the offence or the particulars required to be stated in the charge, and no omission to state the offence or those particulars, shall be regarded at any stage of the case as material, unless the accused was in fact misled by such error or omission, and it has occasioned a failure of justice.
+
+Section 216 — Court May Alter Charge
+Any Court may alter or add to any charge at any time before judgment is pronounced. Every such alteration or addition shall be read and explained to the accused.
+
+Section 217 — Recall of Witnesses When Charge Altered
+Whenever a charge is altered or added to by the Court after the commencement of the trial, the prosecutor and the accused shall be allowed to recall or re-summon, and examine with reference to such alteration or addition, any witness who may have been examined, unless the Court, for reasons to be recorded in writing, considers that the prosecutor or accused, as the case may be, desires to recall or re-examine such witness for the purpose of vexation or delay or for defeating the ends of justice.
+
+Section 218 — Separate Charges for Distinct Offences
+For every distinct offence of which any person is accused there shall be a separate charge and every such charge shall be tried separately.
+
+Section 219 — Three Offences of Same Kind Within Year May Be Charged Together
+When a person is accused of more offences than one of the same kind committed within the space of twelve months from the first to the last of such offences, whether in respect of the same person or not, he may be charged with, and tried at one trial for, any number of them not exceeding three.
+
+Section 220 — Trial for More Than One Offence
+If, in one series of acts so connected together as to form the same transaction, more offences than one are committed by the same person, he may be charged with, and tried at one trial for, every such offence.
+
+Section 221 — Where It Is Doubtful What Offence Has Been Committed
+If a single act or series of acts is of such a nature that it is doubtful which of several offences the facts which can be proved will constitute, the accused may be charged with having committed all or any of such offences, and any number of such charges may be tried at once; or he may be charged in the alternative with having committed some one of the said offences.
+
+Section 222 — When Person Charged with One Offence Can Be Convicted of Another
+When a person is charged with an offence consisting of several particulars, a combination of some only of which constitutes a complete minor offence, and such combination is proved, but the remaining particulars are not proved, he may be convicted of the minor offence, though he was not charged with it.
+
+Section 223 — What Persons May Be Charged Jointly
+The following persons may be charged and tried together, namely: persons accused of the same offence committed in the course of the same transaction; persons accused of an offence and persons accused of abetment of, or attempt to commit, such offence; persons accused of more than one offence of the same kind, within the meaning of section 219 committed by them jointly within the period of twelve months; persons accused of different offences committed in the course of the same transaction; persons accused of an offence which includes theft, extortion, cheating, or criminal misappropriation, and persons accused of receiving or retaining, or assisting in the disposal or concealment of, property possession of which is alleged to have been transferred by any such offence committed by the first-named persons, or of abetment of or attempting to commit any such last-named offence; persons accused of offences under sections 212 and 216 of the Bharatiya Nyaya Sanhita, 2023 and persons accused of the original offence; persons accused of an offence under Chapter XII of the Bharatiya Nyaya Sanhita, 2023 relating to counterfeit coin and persons in possession of or attempting to pass counterfeit coin which they knew to be counterfeit.
+
+Section 230 — Charge Framing
+When the accused appears or is brought before the Magistrate, the Magistrate shall, if he is of opinion that there is ground for presuming that the accused has committed an offence triable under this Chapter, frame in writing a charge against the accused.
+
+Section 231 — Conviction on Plea of Guilty
+If the accused pleads guilty, the Magistrate shall record the plea and may, in his discretion, convict him thereon.
+
+Section 232 — Conviction on Plea of Guilty in Absence of Accused in Petty Cases
+If the summons has been issued under section 206 and the accused desires to plead guilty to the charge without appearing before the Magistrate, he shall transmit to the Magistrate, by post or by messenger, a letter containing his plea and also the amount of fine specified in the summons.
+
+Section 233 — Procedure When Accused Does Not Plead Guilty
+If the accused refuses to plead or does not plead, or claims to be tried or the Magistrate does not convict the accused under section 231 or section 232, the Magistrate shall fix a date for the examination of witnesses.
+
+Section 234 — Acquittal
+If, in any case under this Chapter, after taking the evidence for the prosecution, examining the accused and hearing the prosecution and the defence on the point, the Magistrate considers that the evidence adduced by the prosecution falls short of proving the charge, he shall record an order of acquittal.
+
+Section 235 — Conviction
+If the Magistrate finds the accused guilty, he shall, unless he proceeds in accordance with the provisions of section 360 or section 361, pass sentence upon him according to law.
+
+Section 243 — Evidence for Prosecution
+On the date so fixed, the Magistrate shall proceed to take all such evidence as may be produced in support of the prosecution. The Magistrate may, on the application of the prosecution, issue a summons to any of its witnesses directing him to attend or to produce any document or other thing.
+
+Section 244 — Evidence for Defence
+The accused shall then be called upon to enter on his defence and produce his evidence; and if the accused puts in any written statement, the Magistrate shall file it with the record.
+
+Section 247 — Evidence for Defence
+The accused shall then be called upon to enter on his defence and produce his evidence; and if the accused puts in any written statement, the Magistrate shall file it with the record.
+
+Section 248 — Acquittal or Conviction
+If, in any case under this Chapter, after taking the evidence for the prosecution and the defence and examining the accused, the Magistrate finds the accused not guilty, he shall record an order of acquittal. If the Magistrate finds the accused guilty, he shall, unless he proceeds in accordance with the provisions of section 360 or section 361, pass sentence upon him according to law.
+
+Section 258 — Acquittal
+If, in any case under this Chapter, after taking the evidence for the prosecution, examining the accused and hearing the prosecution and the defence on the point, the Magistrate considers that the evidence adduced by the prosecution falls short of proving the charge, he shall record an order of acquittal.
+
+Section 300 — Judgment — Language and Contents
+Every judgment referred to in section 299 shall be written in the language of the Court; shall contain the point or points for determination, the decision thereon and the reasons for the decision; shall specify the offence (if any) of which, and the section of the Bharatiya Nyaya Sanhita, 2023 or other law under which, the accused is convicted, and the punishment to which he is sentenced; if it be a judgment of acquittal, shall state the offence of which the accused is acquitted and direct that he be set at liberty.
+
+Section 301 — Copy of Judgment to Be Given to Accused and Other Persons
+When the accused is sentenced to imprisonment, a copy of the judgment shall, immediately after the pronouncement of the judgment, be given to him free of cost.
+
+Section 302 — Judgment When Pronounced
+The judgment in every trial in any Criminal Court of original jurisdiction shall be pronounced in open Court by the presiding officer immediately after the termination of the trial or at some subsequent time of which notice shall be given to the parties or their pleaders.
+
+Section 303 — Accused to Be Present When Judgment Is Pronounced
+When the judgment is to be pronounced, the accused shall be present in Court to hear it pronounced, unless his personal attendance during the trial has been dispensed with and the sentence is one of fine only or he is acquitted.
+
+Section 304 — Judgment of Acquittal
+When an accused person is acquitted, the Court shall, if it thinks fit, and on the application of the prosecutor, direct that any property or document which has been produced as evidence in the case, or which has been seized from the accused, shall be delivered to the person entitled to the possession thereof, or may be otherwise disposed of in such manner as the Court thinks fit.
+
+Section 355 — Bail in Bailable Offences
+When any person other than a person accused of a non-bailable offence is arrested or detained without warrant by an officer in charge of a police station, or appears or is brought before a Court, and is prepared at any time while in the custody of such officer or at any stage of the proceeding before such Court to give bail, such person shall be released on bail.
+
+Section 356 — Bail in Non-Bailable Offences
+When any person accused of, or suspected of, the commission of any non-bailable offence is arrested or detained without warrant by an officer in charge of a police station or appears or is brought before a Court other than the High Court or Court of Session, he may be released on bail, but he shall not be so released if there appear reasonable grounds for believing that he has been guilty of an offence punishable with death or imprisonment for life.
+
+Section 357 — Bail to Include Bond Without Sureties in Certain Cases
+Before releasing any person on bail under section 355 or section 356, the officer or Court releasing him shall, unless he is released under sub-section (1) of section 355, require him to execute a bond, with or without sureties, for such sum and with such conditions as such officer or Court thinks sufficient to secure his attendance.
+
+Section 358 — Amount of Bond and Reduction Thereof
+The amount of every bond executed under this Chapter shall be fixed with due regard to the circumstances of the case and shall not be excessive; and the High Court or Court of Session may in any case, whether there be an appeal on conviction or not, direct that the bail required by a police officer or Magistrate be reduced.
+
+Section 479 — Bail to Undertrial Prisoners
+Where a person has, during the period of investigation, inquiry or trial under this Sanhita of an offence under any law, been in detention for a period extending up to one-half of the maximum period of imprisonment specified for that offence under that law, he shall be released on bail to the satisfaction of such Magistrate or Court, as the case may be: Provided that the provisions of this section shall not apply to the person who has been previously convicted of an offence under any law and sentenced to imprisonment for a period of three years or more.
+
+Section 480 — Special Provisions Regarding Bail of Accused Persons
+Notwithstanding anything contained in this Chapter, no person accused of an offence punishable with death shall be released on bail by a Court other than the High Court or Court of Session.
+
+Section 481 — Power to Take Bond for Appearance
+When any person for whose appearance or arrest the officer or Court is empowered to issue a summons or warrant is present in Court, such officer or Court may require such person to execute a bond, with or without sureties, for his appearance in such Court, or any other Court to which the case may be transferred.
+
+Section 482 — Discharge of Sureties
+All or any sureties for the appearance and attendance of a person released on bail may at any time apply to a Magistrate to discharge the bond, either wholly or so far as relates to the applicants.
+
+Section 483 — Death of Surety
+Where a surety to a bond dies before the bond is forfeited, his estate shall be discharged from all liability in respect of the bond.
+
+Section 484 — Forfeiture of Bond
+Whenever it is proved to the satisfaction of a Court by which a bond under this Sanhita has been taken, or of a Court to which the proceedings have been transferred, that such bond has been forfeited, the Court shall record the grounds of such proof, and may call upon any person bound by such bond to pay the penalty thereof or to show cause why it should not be paid.
+
+Section 531 — Repeal and Savings
+The Code of Criminal Procedure, 1973 is hereby repealed. Notwithstanding such repeal, anything done or any action taken under the Code of Criminal Procedure, 1973 shall be deemed to have been done or taken under the corresponding provisions of this Sanhita.

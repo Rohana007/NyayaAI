@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NyayaAI — Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles/main.css">
+<script src="../js/api.js"></script>
+<script src="../js/charts.js"></script>
+<style>
+.dash-layout { display: flex; min-height: calc(100vh - 52px - 40px); }
+.sidebar { width: 220px; flex-shrink: 0; background: rgba(6,9,15,0.8); border-right: 1px solid rgba(201,168,76,0.1); padding: 24px 0; }
+.sidebar-link { display: flex; align-items: center; gap: 10px; padding: 10px 20px; font-size: 12px; color: var(--text2); cursor: pointer; transition: all .2s; border-left: 2px solid transparent; }
+.sidebar-link:hover, .sidebar-link.active { color: var(--gold); border-left-color: var(--gold); background: rgba(201,168,76,0.04); }
+.sidebar-link a { color: inherit; text-decoration: none; display: flex; align-items: center; gap: 10px; width: 100%; }
+.dash-main { flex: 1; padding: 32px; overflow-y: auto; }
+.dash-title { font-family: 'Playfair Display', serif; font-size: 24px; color: var(--white); margin-bottom: 4px; }
+.dash-sub { font-size: 12px; color: var(--text2); margin-bottom: 32px; }
+
+.stats-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 32px; }
+.stat-card { background: rgba(255,255,255,0.02); border: 1px solid rgba(201,168,76,0.1); border-radius: 4px; padding: 16px; text-align: center; }
+.stat-num { font-family: 'Playfair Display', serif; font-size: 28px; color: var(--gold); }
+.stat-label { font-size: 10px; color: var(--text2); margin-top: 4px; letter-spacing: .05em; }
+.stat-hint { font-size: 9px; color: var(--text2); margin-top: 2px; opacity: .6; }
+
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.panel-title { font-family: 'Playfair Display', serif; font-size: 16px; color: var(--white); margin-bottom: 16px; }
+
+.form-row { margin-bottom: 14px; }
+.form-label { font-size: 11px; color: var(--text2); margin-bottom: 5px; display: block; letter-spacing: .05em; }
+.form-select, .form-input {
+  width: 100%; background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(201,168,76,0.2); border-radius: 3px;
+  color: var(--white); font-family: 'DM Sans', sans-serif; font-size: 12px;
+  padding: 8px 12px; outline: none;
+}
+.form-select { cursor: pointer; }
+.form-select option { background: #0A0F1E; }
+.form-select:focus, .form-input:focus { border-color: rgba(201,168,76,0.45); }
+.form-info { font-size: 10px; color: var(--text2); margin-top: 4px; }
+
+.toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.04); }
+.toggle-label { font-size: 12px; color: var(--text); }
+.toggle { width: 36px; height: 20px; background: rgba(201,168,76,0.2); border-radius: 10px; cursor: pointer; position: relative; transition: background .2s; }
+.toggle.on { background: rgba(201,168,76,0.5); }
+.toggle::after { content: ''; position: absolute; width: 14px; height: 14px; background: var(--gold); border-radius: 50%; top: 3px; left: 3px; transition: left .2s; }
+.toggle.on::after { left: 19px; }
+
+.sessions-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.sessions-table th { padding: 8px 12px; text-align: left; color: var(--text2); border-bottom: 1px solid rgba(201,168,76,0.1); font-weight: 600; font-size: 10px; letter-spacing: .05em; }
+.sessions-table td { padding: 8px 12px; border-bottom: 1px solid rgba(255,255,255,0.04); color: var(--text); }
+.sessions-table tr:hover td { background: rgba(201,168,76,0.03); }
+
+.radar-wrap { display: flex; justify-content: center; padding: 16px 0; }
+
+.badge-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+.badge-item { padding: 6px 12px; background: rgba(201,168,76,0.08); border: 1px solid rgba(201,168,76,0.2); border-radius: 2px; font-size: 11px; color: var(--gold); }
+.badge-item.locked { opacity: .3; filter: grayscale(1); }
+
+.bq-color-good { color: #6DBF8A; }
+.bq-color-warn { color: var(--gold); }
+.bq-color-bad { color: #E07070; }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-logo">⚖ Nyaya<span>AI</span></div>
+  <div class="nav-links">
+    <a href="landing.html">Home</a>
+    <a href="dashboard.html" class="active">Dashboard</a>
+    <a href="leaderboard.html">Leaderboard</a>
+    <a href="ethics.html">Ethics</a>
+    <span id="userGreet" style="font-size:12px;color:var(--text2)"></span>
+    <button class="nav-btn" onclick="logout()">Logout</button>
+  </div>
+</nav>
+
+<div class="dash-layout">
+  <div class="sidebar">
+    <div class="sidebar-link active"><a href="dashboard.html">🏠 Dashboard</a></div>
+    <div class="sidebar-link"><a href="leaderboard.html">🏆 Leaderboard</a></div>
+    <div class="sidebar-link"><a href="evaluation.html">📊 Evaluation</a></div>
+    <div class="sidebar-link"><a href="ethics.html">🛡 AI Ethics</a></div>
+  </div>
+
+  <div class="dash-main">
+    <div class="dash-title">Welcome back.</div>
+    <div class="dash-sub">Your legal training dashboard — BNS/BNSS/BSA compliant.</div>
+
+    <!-- Stats -->
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="stat-num" id="statSessions">0</div>
+        <div class="stat-label">Sessions</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" id="statAvgScore">—</div>
+        <div class="stat-label">Avg Score</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" id="statBadges">0</div>
+        <div class="stat-label">Badges</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" id="statWinRate">—</div>
+        <div class="stat-label">Win Rate</div>
+      </div>
+      <div class="stat-card" title="Lower = stronger arguments. Fewer interruptions means your logic was sound.">
+        <div class="stat-num" id="statBenchQueries">—</div>
+        <div class="stat-label">Bench Queries</div>
+        <div class="stat-hint">Lower is better</div>
+      </div>
+    </div>
+
+    <div class="two-col">
+      <!-- New Case Panel -->
+      <div class="card">
+        <div class="panel-title">Start New Case</div>
+        <div class="form-row">
+          <label class="form-label">Case Type</label>
+          <select class="form-select" id="caseType">
+            <option value="murder">Murder (BNS §103)</option>
+            <option value="culpable_homicide">Culpable Homicide (BNS §105)</option>
+            <option value="theft">Theft & Robbery (BNS §303/309)</option>
+            <option value="cheating">Cheating (BNS §318)</option>
+            <option value="sexual_assault">Sexual Assault (BNS §63)</option>
+            <option value="dowry_death">Dowry Death (BNS §80)</option>
+            <option value="sedition">Sedition / Terrorism (BNS §147)</option>
+            <option value="bail">Bail Application (BNSS §479)</option>
+            <option value="property">Civil — Property Dispute</option>
+          </select>
+          <div class="form-info">ℹ All cases generated under BNS, BNSS & BSA — effective July 1, 2024.</div>
+        </div>
+        <div class="form-row">
+          <label class="form-label">Court Level</label>
+          <select class="form-select" id="courtLevel">
+            <option>Sessions Court</option>
+            <option>High Court</option>
+            <option>Supreme Court</option>
+            <option>Magistrate Court</option>
+          </select>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+          <div class="form-row">
+            <label class="form-label">Complexity</label>
+            <select class="form-select" id="complexity">
+              <option value="simple">Simple</option>
+              <option value="moderate" selected>Moderate</option>
+              <option value="complex">Complex</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label class="form-label">Your Role</label>
+            <select class="form-select" id="roleSelect">
+              <option value="defence">Defence Counsel</option>
+              <option value="prosecution">Public Prosecutor</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <label class="form-label">Difficulty</label>
+          <select class="form-select" id="difficulty">
+            <option value="easy">Easy — hints enabled, lenient judge</option>
+            <option value="medium" selected>Medium — balanced simulation</option>
+            <option value="hard">Hard — strict procedure, no hints</option>
+          </select>
+        </div>
+        <div class="toggle-row">
+          <span class="toggle-label">🤖 Agentic Judge Mode</span>
+          <div class="toggle on" id="agenticToggle" onclick="this.classList.toggle('on')" title="When ON, the AI Judge may interrupt your argument mid-typing if it detects logical inconsistencies."></div>
+        </div>
+        <div style="margin-top:16px">
+          <button class="btn" onclick="startCase()" id="startBtn" style="width:100%">Generate Case & Enter Courtroom</button>
+          <div id="startStatus" style="font-size:11px;color:var(--text2);margin-top:8px;text-align:center"></div>
+        </div>
+      </div>
+
+      <!-- Skill Radar -->
+      <div class="card">
+        <div class="panel-title">Skill Radar</div>
+        <div class="radar-wrap">
+          <canvas id="radarChart" width="220" height="220"></canvas>
+        </div>
+        <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-top:8px">
+          <span style="font-size:10px;color:var(--text2)">Legal Logic</span>
+          <span style="font-size:10px;color:var(--text2)">Clarity</span>
+          <span style="font-size:10px;color:var(--text2)">Procedure</span>
+          <span style="font-size:10px;color:var(--text2)">Citations</span>
+          <span style="font-size:10px;color:var(--text2)">Rebuttal</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Badges -->
+    <div class="card" style="margin-top:24px">
+      <div class="panel-title">Badges</div>
+      <div class="badge-grid">
+        <div class="badge-item" id="badge-first">🏛 First Hearing</div>
+        <div class="badge-item locked" id="badge-citation">📚 Citation Master</div>
+        <div class="badge-item locked" id="badge-proc">⚖ Proceduralist</div>
+        <div class="badge-item locked" id="badge-obj">⚡ Objection Ace</div>
+        <div class="badge-item locked" id="badge-cross">👤 Cross-Examiner</div>
+        <div class="badge-item locked" id="badge-iron">🔥 Iron Advocate</div>
+        <div class="badge-item locked" id="badge-bench">🏛 Full Bench</div>
+      </div>
+    </div>
+
+    <!-- Recent Sessions -->
+    <div class="card" style="margin-top:24px">
+      <div class="panel-title">Recent Sessions</div>
+      <table class="sessions-table">
+        <thead>
+          <tr><th>Case</th><th>Role</th><th>Score</th><th>Grade</th><th>Bench Queries</th><th>Verdict</th><th></th></tr>
+        </thead>
+        <tbody id="sessionsBody">
+          <tr><td colspan="7" style="text-align:center;color:var(--text2);padding:24px">No sessions yet. Start your first case above.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  ⚠ Educational simulation only — not legal advice
+  <span>·</span> BNS / BNSS / BSA (July 2024)
+  <span>·</span> NyayaAI by Team LexSim
+</footer>
+
+<script>
+const user = api.getUser();
+if (user) document.getElementById('userGreet').textContent = `Hello, ${user.name}`;
+
+function logout() { api.logout(); window.location.href = 'landing.html'; }
+
+async function startCase() {
+  const btn = document.getElementById('startBtn');
+  const status = document.getElementById('startStatus');
+  btn.disabled = true;
+  btn.textContent = 'Generating case…';
+  status.textContent = 'AI is creating your case under BNS/BNSS/BSA…';
+
+  try {
+    const result = await api.generateCase(
+      document.getElementById('caseType').value,
+      document.getElementById('courtLevel').value,
+      document.getElementById('complexity').value,
+      document.getElementById('roleSelect').value,
+      document.getElementById('difficulty').value
+    );
+    // Store session data for courtroom page
+    localStorage.setItem('nyaya_session_id', result.session_id);
+    localStorage.setItem('nyaya_case_data', JSON.stringify(result));
+    localStorage.setItem('nyaya_role', document.getElementById('roleSelect').value);
+    localStorage.setItem('nyaya_difficulty', document.getElementById('difficulty').value);
+    window.location.href = 'courtroom.html';
+  } catch (e) {
+    status.textContent = 'Error: ' + e.message;
+    btn.disabled = false;
+    btn.textContent = 'Generate Case & Enter Courtroom';
+  }
+}
+
+// Load skill radar
+async function loadRadar() {
+  if (!user) return;
+  try {
+    const data = await api.getSkillRadar(user.id);
+    const s = data.avg_scores;
+    drawRadarChart('radarChart',
+      [s.legal_accuracy, s.argument_structure, s.evidence_usage, s.procedural_compliance, s.articulation],
+      ['Logic', 'Structure', 'Evidence', 'Procedure', 'Articulation']
+    );
+    document.getElementById('statSessions').textContent = data.sessions_count;
+    document.getElementById('statAvgScore').textContent =
+      data.sessions_count ? Math.round(Object.values(s).reduce((a,b)=>a+b,0)/5) : '—';
+    const bq = data.bench_queries_avg;
+    const bqEl = document.getElementById('statBenchQueries');
+    bqEl.textContent = data.sessions_count ? bq.toFixed(1) : '—';
+    bqEl.className = 'stat-num ' + (bq <= 2 ? 'bq-color-good' : bq <= 5 ? 'bq-color-warn' : 'bq-color-bad');
+  } catch (e) {
+    drawRadarChart('radarChart', [0,0,0,0,0], ['Logic','Structure','Evidence','Procedure','Articulation']);
+  }
+}
+loadRadar();
+</script>
+</body>
+</html>

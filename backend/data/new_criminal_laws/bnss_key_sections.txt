@@ -1,0 +1,47 @@
+BHARATIYA NAGARIK SURAKSHA SANHITA, 2023 (BNSS)
+Effective: July 1, 2024 | Replaces: Code of Criminal Procedure, 1973
+
+Section 2 — Definitions
+In this Sanhita, unless the context otherwise requires: "bailable offence" means an offence which is shown as bailable in the First Schedule, or which is made bailable by any other law for the time being in force; "charge" includes any head of charge when the charge contains more heads than one; "cognizable offence" means an offence for which, and "cognizable case" means a case in which, a police officer may, in accordance with the First Schedule or under any other law for the time being in force, arrest without warrant.
+
+Section 35 — Arrest of Persons
+Any police officer may without an order from a Magistrate and without a warrant, arrest any person who has been concerned in any cognizable offence, or against whom a reasonable complaint has been made, or credible information has been received, or a reasonable suspicion exists, of his having been so concerned.
+
+Section 173 — Information in Cognizable Cases (FIR)
+Every information relating to the commission of a cognizable offence, if given orally to an officer in charge of a police station, shall be reduced to writing by him or under his direction, and be read over to the informant; and every such information, whether given in writing or reduced to writing as aforesaid, shall be signed by the person giving it, and the substance thereof shall be entered in a book to be kept by such officer in such form as the State Government may prescribe in this behalf. A copy of the information as recorded under sub-section (1) shall be given forthwith, free of cost, to the informant. Any person aggrieved by a refusal on the part of an officer in charge of a police station to record the information referred to in sub-section (1) may send the substance of such information, in writing and by post, to the Superintendent of Police concerned who, if satisfied that such information discloses the commission of a cognizable offence, shall either investigate the case himself or direct an investigation to be made by any police officer subordinate to him.
+
+Section 176 — Investigation by Police
+Every investigation under this Chapter shall be completed without unnecessary delay. As soon as it is completed, the officer in charge of the police station shall forward to a Magistrate empowered to take cognizance of the offence on a police report, a report in the form prescribed by the State Government.
+
+Section 180 — Examination of Witnesses by Police
+Any police officer making an investigation under this Chapter, or any police officer not below such rank as the State Government may, by general or special order, prescribe in this behalf, acting on the requisition of such officer, may examine orally any person supposed to be acquainted with the facts and circumstances of the case.
+
+Section 183 — Statements Before Magistrate
+Any Metropolitan Magistrate or Judicial Magistrate may, whether or not he has jurisdiction in the case, record any statement or confession made to him in the course of an investigation under this Chapter or under any other law for the time being in force, or at any time afterwards before the commencement of the inquiry or trial.
+
+Section 193 — Police Report to Magistrate
+Every investigation under this Chapter shall be completed without unnecessary delay and, as soon as it is completed, the officer in charge of the police station shall forward to a Magistrate empowered to take cognizance of the offence on a police report, a report in the form prescribed by the State Government, setting forth the names of the parties, the nature of the information, the names of the persons who appear to be acquainted with the circumstances of the case, whether any offence appears to have been committed and, if so, by whom, whether the accused has been arrested, whether he has been released on his bond and, if so, whether with or without sureties, and whether he has been forwarded in custody under section 187.
+
+Section 207 — Supply of Copies of Documents to Accused
+In any case where the proceeding has been instituted on a police report, the Magistrate shall without delay furnish to the accused, free of cost, a copy of each of the following: the police report; the first information report recorded under section 173; the statements recorded under sub-section (3) of section 180 of all persons whom the prosecution proposes to examine as its witnesses, excluding therefrom any part in regard to which a request for such exclusion has been made by the police officer under sub-section (6) of section 193.
+
+Section 230 — Charge Framing
+When the accused appears or is brought before the Magistrate, the Magistrate shall, if he is of opinion that there is ground for presuming that the accused has committed an offence triable under this Chapter, frame in writing a charge against the accused.
+
+Section 243 — Evidence for Prosecution
+On the date so fixed, the Magistrate shall proceed to take all such evidence as may be produced in support of the prosecution. The Magistrate may, on the application of the prosecution, issue a summons to any of its witnesses directing him to attend or to produce any document or other thing.
+
+Section 247 — Evidence for Defence
+The accused shall then be called upon to enter on his defence and produce his evidence; and if the accused puts in any written statement, the Magistrate shall file it with the record.
+
+Section 258 — Acquittal
+If, in any case under this Chapter, after taking the evidence for the prosecution, examining the accused and hearing the prosecution and the defence on the point, the Magistrate considers that the evidence adduced by the prosecution falls short of proving the charge, he shall record an order of acquittal.
+
+Section 355 — Bail in Bailable Offences
+When any person other than a person accused of a non-bailable offence is arrested or detained without warrant by an officer in charge of a police station, or appears or is brought before a Court, and is prepared at any time while in the custody of such officer or at any stage of the proceeding before such Court to give bail, such person shall be released on bail.
+
+Section 479 — Bail to Undertrial Prisoners
+Where a person has, during the period of investigation, inquiry or trial under this Sanhita of an offence under any law, been in detention for a period extending up to one-half of the maximum period of imprisonment specified for that offence under that law, he shall be released on bail to the satisfaction of such Magistrate or Court, as the case may be: Provided that the provisions of this section shall not apply to the person who has been previously convicted of an offence under any law and sentenced to imprisonment for a period of three years or more.
+
+Section 531 — Repeal and Savings
+The Code of Criminal Procedure, 1973 is hereby repealed. Notwithstanding such repeal, anything done or any action taken under the Code of Criminal Procedure, 1973 shall be deemed to have been done or taken under the corresponding provisions of this Sanhita.
