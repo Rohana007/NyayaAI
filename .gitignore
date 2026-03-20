@@ -21,6 +21,17 @@ data/chromadb/
 nyaya-ui/node_modules/
 nyaya-ui/dist/
 nyaya-ui/.vite/
+nyaya-ui/package-lock.json
+
+# Old vanilla frontend (superseded by nyaya-ui)
+frontend/
+
+# Root-level leftover
+index.html
+
+# Vite boilerplate assets
+nyaya-ui/src/assets/react.svg
+nyaya-ui/src/assets/vite.svg
 
 # Frontend dist
 frontend-dist/
