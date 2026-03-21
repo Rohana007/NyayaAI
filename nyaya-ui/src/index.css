@@ -406,6 +406,14 @@ body {
     border-left: none !important;
     border-top: 1px solid rgba(201,168,76,.15);
   }
+  /* Landing page — stack columns on mobile */
+  .landing-grid {
+    grid-template-columns: 1fr !important;
+    padding: 16px !important;
+    gap: 32px;
+    align-items: start !important;
+  }
+  .landing-hero { display: none; } /* hide hero text on small screens, show auth card only */
 }
 
 /* ── Light mode badge circles ── */

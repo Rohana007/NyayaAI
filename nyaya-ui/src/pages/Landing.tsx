@@ -58,7 +58,7 @@ export default function Landing() {
 
       {/* Navbar */}
       <motion.nav initial={{ opacity: 0, y: -16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .5, ease }}
-        style={{ position: 'relative', zIndex: 10, display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 48px', height: 60,
+        style={{ position: 'relative', zIndex: 10, display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 clamp(16px, 4vw, 48px)', height: 60,
           borderBottom: '1px solid var(--nav-border)', backdropFilter: 'blur(8px)',
           background: 'var(--nav-bg)', transition: 'background .3s' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
@@ -77,12 +77,14 @@ export default function Landing() {
         </div>
       </motion.nav>
 
-      {/* Main layout — two columns */}
-      <div style={{ position: 'relative', zIndex: 2, flex: 1, display: 'grid', gridTemplateColumns: '1fr 440px', gap: 0, maxWidth: 1300, margin: '0 auto', width: '100%', padding: '0 48px', alignItems: 'center', minHeight: 'calc(100vh - 60px)' }}>
+      {/* Main layout — two columns on desktop, single column on mobile */}
+      <div style={{ position: 'relative', zIndex: 2, flex: 1, display: 'grid', gridTemplateColumns: 'clamp(0px, calc(100vw - 480px), 1fr) min(440px, 100%)', gap: 0, maxWidth: 1300, margin: '0 auto', width: '100%', padding: 'clamp(16px, 4vw, 48px)', alignItems: 'center', minHeight: 'calc(100vh - 60px)' }}
+        className="landing-grid">
 
         {/* Left — hero */}
         <motion.div initial={{ opacity: 0, x: -32 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: .7, ease, delay: .1 }}
-          style={{ paddingRight: 64, paddingTop: 40, paddingBottom: 40 }}>
+          className="landing-hero"
+          style={{ paddingRight: 'clamp(0px, 4vw, 64px)', paddingTop: 40, paddingBottom: 40 }}>
 
           {/* Badge */}
           <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .2 }}
@@ -93,7 +95,7 @@ export default function Landing() {
           </motion.div>
 
           {/* Headline */}
-          <h1 style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: 68, fontWeight: 700, lineHeight: 1.05, color: '#E8E0D0', marginBottom: 20 }}>
+          <h1 style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: 'clamp(36px, 6vw, 68px)', fontWeight: 700, lineHeight: 1.05, color: '#E8E0D0', marginBottom: 20 }}>
             The Courtroom<br />
             <span style={{ color: '#C9A84C' }}>Simulation</span><br />
             for Law Students
