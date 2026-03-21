@@ -13,8 +13,11 @@ from .models.database import init_db
 from .routers import auth, cases, courtroom, evaluation, evidence, leaderboard, demeanor
 from .services.rag_service import IndianLawRAG
 
-# Resolve frontend path relative to this file
+# Resolve frontend path — works both locally and in Docker
 FRONTEND_DIR = os.path.join(os.path.dirname(__file__), "..", "frontend-dist")
+if not os.path.isdir(FRONTEND_DIR):
+    # Docker: /app/frontend-dist
+    FRONTEND_DIR = os.path.join(os.path.dirname(__file__), "../../frontend-dist")
 
 
 @asynccontextmanager
@@ -45,7 +48,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://nyaya-ai-ten-beryl.vercel.app"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

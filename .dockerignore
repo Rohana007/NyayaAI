@@ -1,0 +1,9 @@
+nyaya-ui/node_modules
+nyaya-ui/dist
+backend/__pycache__
+backend/**/__pycache__
+data/chromadb
+*.db
+.env
+.git
+frontend-dist
