@@ -64,11 +64,11 @@ export default function PreTrial() {
   return (
     <div style={{ minHeight: '100vh', background: bg }}>
       <Navbar />
-      <div style={{ maxWidth: 1400, margin: '0 auto', padding: '32px 48px' }}>
+      <div style={{ maxWidth: 1400, margin: '0 auto', padding: '32px 48px' }} className="pretrial-wrapper">
 
         {/* Header */}
         <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .5, ease }}
-          style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 28 }}>
+          style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 28 }} className="pretrial-header">
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 8 }}>
               <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.15em', padding: '4px 12px', borderRadius: 20,
@@ -95,7 +95,7 @@ export default function PreTrial() {
           </motion.button>
         </motion.div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 340px', gap: 24 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 340px', gap: 24 }} className="pretrial-grid">
 
           {/* Main panel */}
           <motion.div initial={{ opacity: 0, x: -16 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: .5, delay: .1, ease }}>
@@ -160,7 +160,7 @@ export default function PreTrial() {
 
                 {/* EVIDENCE */}
                 {tab === 'evidence' && (
-                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16 }}>
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16 }} className="evidence-grid">
                     {caseData.evidence_items?.map((ev: { type: string; title: string; admissibility: string; content?: string }, i: number) => {
                       const admColor = ADM_COLOR[ev.admissibility] || '#666'
                       return (
@@ -199,7 +199,7 @@ export default function PreTrial() {
 
                 {/* LAWS */}
                 {tab === 'laws' && (
-                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 12 }}>
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 12 }} className="laws-grid">
                     {caseData.legal_sections?.map((l: { code: string; section: string; title: string }, i: number) => {
                       const codeColor = l.code === 'BNS' ? '#B8922A' : l.code === 'BNSS' ? '#4A7AB0' : '#4A9A6A'
                       return (
@@ -249,6 +249,7 @@ export default function PreTrial() {
 
           {/* Right sidebar */}
           <motion.div initial={{ opacity: 0, x: 16 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: .5, delay: .15, ease }}
+            className="pretrial-sidebar"
             style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
 
             {/* Case card */}

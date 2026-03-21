@@ -443,3 +443,33 @@ button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-
   outline: 2px solid rgba(201,168,76,.5);
   outline-offset: 2px;
 }
+
+/* ── Mobile responsive fixes ── */
+@media (max-width: 640px) {
+
+  /* Dashboard */
+  .dash-wrapper { padding: 20px 16px !important; }
+  .dash-header h1 { font-size: 36px !important; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  .dash-two-col { grid-template-columns: 1fr !important; }
+  .badge-grid { grid-template-columns: repeat(4, 1fr) !important; }
+  .session-table th:nth-child(n+4),
+  .session-table td:nth-child(n+4) { display: none; }
+
+  /* PreTrial */
+  .pretrial-wrapper { padding: 16px !important; }
+  .pretrial-header { flex-direction: column !important; align-items: flex-start !important; gap: 12px !important; }
+  .pretrial-header h1 { font-size: 26px !important; }
+  .pretrial-grid { grid-template-columns: 1fr !important; }
+  .pretrial-sidebar { display: none; }
+  .pretrial-tabs button { font-size: 10px !important; padding: 8px 4px !important; }
+  .evidence-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  .laws-grid { grid-template-columns: 1fr !important; }
+
+  /* Courtroom top bar */
+  .court-topbar { padding: 0 10px !important; flex-wrap: wrap; height: auto !important; min-height: 52px; gap: 6px; }
+  .court-topbar-title { max-width: 160px !important; font-size: 11px !important; }
+  .court-topbar-right { gap: 6px !important; flex-wrap: wrap; }
+  .court-topbar-right .demo-btn,
+  .court-topbar-right .cam-btn { display: none; }
+}

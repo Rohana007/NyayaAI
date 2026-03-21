@@ -476,7 +476,8 @@ export default function Courtroom() {
       {/* ── TOP BAR ── */}
       <motion.div initial={{ y: -40, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: .5, delay: .2 }}
         style={{ position: 'absolute', top: 0, left: 0, right: 0, zIndex: 20, display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 24px', height: 52,
-          background: 'linear-gradient(180deg, rgba(0,0,0,.8) 0%, transparent 100%)', backdropFilter: 'blur(2px)' }}>
+          background: 'linear-gradient(180deg, rgba(0,0,0,.8) 0%, transparent 100%)', backdropFilter: 'blur(2px)' }}
+        className="court-topbar">
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
           <span style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: 20, fontWeight: 700, color: '#C9A84C', letterSpacing: '0.08em' }}>
             NYAYA<span style={{ color: '#E8E0D0' }}>AI</span>

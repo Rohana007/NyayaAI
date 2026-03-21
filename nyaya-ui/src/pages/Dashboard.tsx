@@ -159,10 +159,10 @@ export default function Dashboard() {
 
   return (
     <div style={{ minHeight: '100vh', background: theme === 'light' ? 'transparent' : 'radial-gradient(ellipse at 50% 0%, #1a0e00 0%, #0e0e0e 50%)' }}>      <Navbar />
-      <div style={{ maxWidth: 1400, margin: '0 auto', padding: '40px 48px' }}>
+      <div style={{ maxWidth: 1400, margin: '0 auto', padding: '40px 48px' }} className="dash-wrapper">
 
         {/* Header */}
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .6, ease }} style={{ marginBottom: 36 }}>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .6, ease }} style={{ marginBottom: 36 }} className="dash-header">
           <h1 style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: 52, color: 'var(--text-primary)', fontWeight: 700, lineHeight: 1.05 }}>
             Dashboard
           </h1>
@@ -183,7 +183,7 @@ export default function Dashboard() {
         </motion.div>
 
         {/* Stat cards */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 18, marginBottom: 32 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 18, marginBottom: 32 }} className="stat-grid">
           {STATS_DATA.map((s, i) => (
             <motion.div key={i} initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * .07, duration: .5, ease }}
               className="nyaya-stat-card hover-lift">
@@ -198,7 +198,7 @@ export default function Dashboard() {
         </div>
 
         {/* Two col */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24, marginBottom: 24 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24, marginBottom: 24 }} className="dash-two-col">
 
           {/* Case form */}
           <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: .2, duration: .6, ease }}
@@ -259,7 +259,7 @@ export default function Dashboard() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .3, duration: .6, ease }}
           className="nyaya-card" style={{ marginBottom: 24 }}>
           <h2 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: 17, fontWeight: 700, color: 'var(--text-primary)', marginBottom: 20 }}>🏅 Badges</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, 1fr)', gap: 12 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, 1fr)', gap: 12 }} className="badge-grid">
             {BADGES.map((b, i) => {
               const earned = earnedBadges.includes(b.id)
               return (
@@ -306,7 +306,7 @@ export default function Dashboard() {
               <div style={{ fontSize: 13, color: 'var(--text-muted)' }}>Generate a case above to start your first session</div>
             </div>
           ) : (
-            <table style={{ width: '100%' }}>
+            <table style={{ width: '100%' }} className="session-table">
               <thead>
                 <tr style={{ borderBottom: '1px solid rgba(255,255,255,.05)' }}>
                   {['Case', 'Role', 'Score', 'Grade', 'Bench Queries', 'Verdict'].map(h => (
