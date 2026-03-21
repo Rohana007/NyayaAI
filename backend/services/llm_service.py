@@ -243,6 +243,12 @@ Follow BNS/BNSS/BSA exclusively. Respond with valid JSON only. No markdown."""
         history_text = "\n".join([f"{m['speaker'].upper()}: {m['content']}" for m in conversation_history[-6:]])
         laws_text = "\n".join([f"- {l.get('bare_act_reference','')}: {l.get('title','')}" for l in relevant_laws[:5]])
 
+        # Bench query instruction — mandatory on even rounds, optional on odd rounds
+        if round_number % 2 == 0:
+            bench_query_instruction = f"""MANDATORY: You MUST set bench_query for round {round_number}. Pick the most interesting legal point in the student's argument and ask a sharp follow-up question about it. Do NOT leave bench_query as null."""
+        else:
+            bench_query_instruction = """OPTIONAL: Set bench_query if the argument has a logical inconsistency, missing evidence citation, or procedural violation. Otherwise leave as null."""
+
         prompt = f"""Case: {case_context.get('case_title')}
 Charges: {', '.join([c.get('section','') for c in case_context.get('charges',[])])}
 Student role: {role} | Round: {round_number}/5 | Phase: {phase_name}
@@ -251,6 +257,8 @@ Relevant laws: {laws_text}
 Recent proceedings:\n{history_text}
 Student's latest argument: {student_argument}
 
+{bench_query_instruction}
+
 Respond with JSON:
 {{
   "judge_response": "Your response as judge, consistent with your {judge_archetype} archetype and the {phase_name} phase...",
@@ -258,10 +266,9 @@ Respond with JSON:
   "ruling": null,
   "cited_laws": [{{"code": "BNS", "section": "103", "text_excerpt": "..."}}],
   "proceeding": "continue",
-  "bench_query": null
+  "bench_query": {{"triggered": true, "reason": "logical_inconsistency", "query": "Counsel, before you proceed — [your sharp question here]..."}}
 }}
-If argument has a critical flaw set bench_query to:
-{{"triggered": true, "reason": "logical_inconsistency", "query": "Counsel, before you proceed..."}}"""
+bench_query reason must be one of: logical_inconsistency, missing_evidence, procedural_violation, clarification_needed"""
 
         raw = await self._call(system, prompt, max_tokens=1000)
         return self._parse_json(raw)

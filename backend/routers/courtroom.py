@@ -125,6 +125,9 @@ async def argue(req: ArgumentRequest, db: AsyncSession = Depends(get_db)):
     except Exception as e:
         print(f"[WARN] Opposing counsel response failed: {e}")
 
+    # Debug: log what Gemini returned for bench_query
+    print(f"[DEBUG] Round {current_round} bench_query from Gemini: {judge_data.get('bench_query')}")
+
     # Run tactical choices + case predictor in parallel
     import asyncio as _asyncio2
     judge_resp_text = judge_data.get("judge_response", "")
@@ -187,6 +190,24 @@ async def argue(req: ArgumentRequest, db: AsyncSession = Depends(get_db)):
     # Handle bench query from judge response
     bench_query_payload = None
     bq = judge_data.get("bench_query")
+
+    # Fallback: force a bench query on even rounds if Gemini didn't return one
+    if (not bq or not bq.get("triggered")) and current_round % 2 == 0:
+        try:
+            laws_for_query = rag.search_relevant_laws(req.content, 3)
+            law_ref = laws_for_query[0].get("bare_act_reference", "BNS Section 103") if laws_for_query else "BNS Section 103"
+            bq = {
+                "triggered": True,
+                "reason": "clarification_needed",
+                "query": f"Counsel, the Court requires clarification — you have invoked {law_ref} in your argument. Can you precisely state the elements of this provision that you believe are satisfied on the facts of this case?"
+            }
+        except Exception:
+            bq = {
+                "triggered": True,
+                "reason": "clarification_needed",
+                "query": "Counsel, the Court requires clarification on the legal basis of your last submission. Please cite the exact BNS/BNSS/BSA provision and explain how the facts satisfy each element."
+            }
+
     if bq and bq.get("triggered"):
         bq_id = str(uuid.uuid4())
         db.add(BenchQuery(
