@@ -109,7 +109,20 @@ async def generate_evaluation(session_id: str, db: AsyncSession = Depends(get_db
         session_id=session_id,
         legal_framework="BNS/BNSS/BSA",
         bench_queries_faced=bench_queries_faced,
-        **{k: v for k, v in eval_data.items() if k != "bench_queries_faced"}
+        scores=eval_data.get("scores", {}),
+        overall_score=eval_data.get("overall_score", 0),
+        grade=eval_data.get("grade", "C"),
+        verdict=eval_data.get("verdict", "Pending"),
+        verdict_reasoning=eval_data.get("verdict_reasoning", ""),
+        feedback_points=eval_data.get("feedback_points", []),
+        next_steps=eval_data.get("next_steps", []),
+        improvement_tips=eval_data.get("improvement_tips", []),
+        badge=eval_data.get("badge"),
+        bias_audit=eval_data.get("bias_audit", {"passed": True, "note": "Evaluation based solely on legal arguments."}),
+        strengths=eval_data.get("strengths", []),
+        weaknesses=eval_data.get("weaknesses", []),
+        missed_arguments=eval_data.get("missed_arguments", []),
+        better_responses=eval_data.get("better_responses", []),
     )
 
 
@@ -126,7 +139,20 @@ async def get_evaluation(session_id: str, db: AsyncSession = Depends(get_db)):
         session_id=session_id,
         legal_framework="BNS/BNSS/BSA",
         bench_queries_faced=perf.bench_queries_faced,
-        **{k: v for k, v in data.items() if k != "bench_queries_faced"}
+        scores=data.get("scores", {}),
+        overall_score=data.get("overall_score", perf.overall_score or 0),
+        grade=data.get("grade", perf.grade or "C"),
+        verdict=data.get("verdict", perf.verdict or "Pending"),
+        verdict_reasoning=data.get("verdict_reasoning", ""),
+        feedback_points=data.get("feedback_points", []),
+        next_steps=data.get("next_steps", []),
+        improvement_tips=data.get("improvement_tips", []),
+        badge=data.get("badge"),
+        bias_audit=data.get("bias_audit", {"passed": True, "note": "Evaluation based solely on legal arguments."}),
+        strengths=data.get("strengths", []),
+        weaknesses=data.get("weaknesses", []),
+        missed_arguments=data.get("missed_arguments", []),
+        better_responses=data.get("better_responses", []),
     )
 
 

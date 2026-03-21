@@ -27,14 +27,17 @@ export default function Evaluation() {
   useEffect(() => {
     if (!sessionId) { nav('/dashboard'); return }
     setLoading(true)
+    setErr('')
+
+    const tryGenerate = () =>
+      evaluationApi.generate(sessionId)
+        .then(setData)
+        .catch(e => setErr(e.message || 'Evaluation failed. Please try again.'))
+        .finally(() => setLoading(false))
+
     evaluationApi.get(sessionId)
-      .then(setData)
-      .catch(() =>
-        evaluationApi.generate(sessionId)
-          .then(setData)
-          .catch(e => setErr(e.message))
-      )
-      .finally(() => setLoading(false))
+      .then(d => { setData(d); setLoading(false) })
+      .catch(() => tryGenerate())
   }, [sessionId])
 
   if (!user) { nav('/'); return null }
@@ -53,7 +56,22 @@ export default function Evaluation() {
             <div style={{ fontSize: 13, color: '#8A8070' }}>Loading evaluation…</div>
           </div>
         )}
-        {err && <div style={{ textAlign: 'center', padding: '80px 0', fontSize: 13, color: '#E07070' }}>{err}</div>}
+        {err && (
+          <div style={{ textAlign: 'center', padding: '80px 0' }}>
+            <div style={{ fontSize: 13, color: '#E07070', marginBottom: 16 }}>{err}</div>
+            <button
+              onClick={() => {
+                setErr(''); setLoading(true)
+                evaluationApi.generate(sessionId!)
+                  .then(setData)
+                  .catch(e => setErr(e.message || 'Evaluation failed.'))
+                  .finally(() => setLoading(false))
+              }}
+              style={{ padding: '10px 24px', borderRadius: 8, border: '1px solid rgba(201,168,76,.4)', color: '#C9A84C', background: 'rgba(201,168,76,.1)', cursor: 'pointer', fontSize: 13, fontFamily: 'Space Grotesk, sans-serif', fontWeight: 700 }}>
+              Retry Evaluation
+            </button>
+          </div>
+        )}
 
         {data && (
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="flex flex-col gap-6">
