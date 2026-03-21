@@ -2,4 +2,16 @@
 nixPkgs = ["python311", "gcc", "cmake"]
 
 [phases.build]
-cmds = ["pip install --upgrade pip && pip install -r requirements.txt"]
+cmds = ["pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt"]
+
+# Prevent PyTorch / CUDA / HuggingFace model downloads at build time.
+# chromadb's DefaultEmbeddingFunction uses a small ONNX model that is fetched
+# at first runtime query, not during the image build.
+[variables]
+PIP_NO_CACHE_DIR = "1"
+TORCH_HOME = "/tmp/torch"
+TRANSFORMERS_CACHE = "/tmp/transformers"
+HF_HOME = "/tmp/huggingface"
+TOKENIZERS_PARALLELISM = "false"
+TRANSFORMERS_NO_TF = "1"
+TRANSFORMERS_NO_FLAX = "1"

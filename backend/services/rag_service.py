@@ -16,13 +16,22 @@ COLLECTION_NAME = "new_criminal_laws_2024"
 
 
 def _get_embedding_function():
-    """Get embedding function — prefer SentenceTransformer, fall back to default."""
+    """Get embedding function.
+
+    Uses chromadb's built-in DefaultEmbeddingFunction (ONNX-based,
+    all-MiniLM-L6-v2 weights, no PyTorch/CUDA required) by default.
+    Falls back to SentenceTransformerEmbeddingFunction only when the
+    sentence-transformers package is explicitly installed.
+    """
     try:
+        # Only use SentenceTransformer if the package is available; it pulls
+        # in PyTorch which massively inflates the Docker image.
+        import sentence_transformers  # noqa: F401
         return embedding_functions.SentenceTransformerEmbeddingFunction(
             model_name="all-MiniLM-L6-v2"
         )
-    except Exception:
-        # Fall back to ChromaDB's built-in default embeddings
+    except ImportError:
+        # Default: lightweight ONNX runtime — same model, no CUDA dependency.
         return embedding_functions.DefaultEmbeddingFunction()
 
 
