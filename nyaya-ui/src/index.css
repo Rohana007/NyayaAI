@@ -473,3 +473,31 @@ button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-
   .court-topbar-right .demo-btn,
   .court-topbar-right .cam-btn { display: none; }
 }
+
+/* ── Evaluation, Closing, Leaderboard, Demo mobile fixes ── */
+@media (max-width: 640px) {
+
+  /* Evaluation */
+  .eval-wrapper { padding: 20px 16px !important; }
+  .eval-hero { flex-direction: column !important; gap: 16px !important; }
+  .eval-hero .border-l { border-left: none !important; border-top: 1px solid rgba(255,255,255,.07); padding-left: 0 !important; padding-top: 16px !important; }
+  .eval-sw-grid { grid-template-columns: 1fr !important; }
+
+  /* Closing Argument */
+  .closing-verdict-grid { grid-template-columns: 1fr !important; }
+  .closing-doc { padding: 20px !important; }
+  .closing-doc-verdict { grid-template-columns: 1fr !important; }
+  .closing-actions { flex-direction: column !important; }
+
+  /* Leaderboard */
+  .lb-wrapper { padding: 20px 16px !important; }
+  .lb-header h1 { font-size: 36px !important; }
+  .lb-podium { gap: 10px !important; }
+  .lb-podium > div > div:last-child { width: 80px !important; }
+  .lb-table th:nth-child(3),
+  .lb-table td:nth-child(3) { display: none; }
+
+  /* Demo */
+  .demo-controls { flex-direction: column !important; }
+  .demo-controls > div:last-child { padding-top: 0 !important; }
+}

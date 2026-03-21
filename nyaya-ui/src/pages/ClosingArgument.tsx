@@ -160,7 +160,8 @@ export default function ClosingArgument() {
 
             {/* Formal judgment document */}
             <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .7, delay: .2 }}
-              style={{ borderRadius: 16, overflow: 'hidden', background: '#F5F0E8', boxShadow: '0 32px 80px rgba(0,0,0,.8)', position: 'relative' }}>
+              style={{ borderRadius: 16, overflow: 'hidden', background: '#F5F0E8', boxShadow: '0 32px 80px rgba(0,0,0,.8)', position: 'relative' }}
+              className="closing-doc">
 
               {/* Stamp */}
               <AnimatePresence>
@@ -200,8 +201,8 @@ export default function ClosingArgument() {
               </div>
 
               {/* Verdict block */}
-              <div style={{ padding: '24px 40px', borderBottom: '1px solid #D4C9A8' }}>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20 }}>
+              <div style={{ padding: '24px 40px', borderBottom: '1px solid #D4C9A8' }} className="closing-doc">
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20 }} className="closing-doc-verdict">
                   <div>
                     <div style={{ fontSize: 10, letterSpacing: '0.15em', color: '#8A7A5A', fontFamily: 'Space Grotesk, sans-serif', marginBottom: 6 }}>VERDICT</div>
                     <div style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: 28, fontWeight: 700, color: verdictColor }}>{verdict.verdict}</div>
@@ -237,7 +238,7 @@ export default function ClosingArgument() {
 
             {/* Score summary */}
             <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .5 }}
-              style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12 }}>
+              style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12 }} className="closing-verdict-grid">
               {[
                 { label: 'Overall Score', value: `${verdict.overall_score}/100`, color: '#C9A84C' },
                 { label: 'Grade', value: verdict.grade, color: gradeColor },
@@ -252,7 +253,7 @@ export default function ClosingArgument() {
 
             {/* Actions */}
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: .7 }}
-              style={{ display: 'flex', gap: 12 }}>
+              style={{ display: 'flex', gap: 12 }} className="closing-actions">
               <motion.button whileHover={{ scale: 1.02 }} whileTap={{ scale: .98 }}
                 onClick={() => nav('/evaluation')}
                 style={{ flex: 2, padding: '14px 0', borderRadius: 10, border: 'none', cursor: 'pointer', fontFamily: 'Space Grotesk, sans-serif', fontWeight: 700, fontSize: 14, letterSpacing: '0.08em',

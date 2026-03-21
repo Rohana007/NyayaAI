@@ -113,7 +113,8 @@ export default function Demo() {
         {/* Controls */}
         {status !== 'playing' && (
           <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }}
-            style={{ borderRadius: 14, padding: 24, background: 'rgba(255,255,255,.03)', border: '1px solid rgba(255,255,255,.07)', display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap' }}>
+            style={{ borderRadius: 14, padding: 24, background: 'rgba(255,255,255,.03)', border: '1px solid rgba(255,255,255,.07)', display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap' }}
+            className="demo-controls">
             <div style={{ flex: 1, minWidth: 200 }}>
               <div style={{ fontSize: 10, letterSpacing: '0.15em', color: '#8A8070', fontFamily: 'Space Grotesk, sans-serif', marginBottom: 8 }}>CASE TYPE</div>
               <select value={caseType} onChange={e => { setCaseType(e.target.value); setScript(null) }}

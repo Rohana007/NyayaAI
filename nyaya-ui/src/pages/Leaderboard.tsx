@@ -33,10 +33,10 @@ export default function Leaderboard() {
   return (
     <div style={{ minHeight: '100vh', background: '#111' }}>
       <Navbar />
-      <div style={{ maxWidth: 1400, margin: '0 auto', padding: '48px 48px' }}>
+      <div style={{ maxWidth: 1400, margin: '0 auto', padding: '48px 48px' }} className="lb-wrapper">
 
         {/* Header */}
-        <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} style={{ marginBottom: 40 }}>
+        <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} style={{ marginBottom: 40 }} className="lb-header">
           <h1 style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: 52, color: '#E8E0D0', fontWeight: 700, lineHeight: 1.05 }}>Leaderboard</h1>
           <p style={{ marginTop: 8, color: '#666', fontSize: 14, fontFamily: 'DM Sans, sans-serif' }}>Top performers across all NyayaAI courtroom sessions</p>
         </motion.div>
@@ -48,7 +48,8 @@ export default function Leaderboard() {
             {/* Podium */}
             {top3.length > 0 && (
               <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .1 }}
-                style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'center', gap: 20, marginBottom: 48 }}>
+                style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'center', gap: 20, marginBottom: 48 }}
+                className="lb-podium">
                 {[top3[1], top3[0], top3[2]].map((entry, idx) => {
                   if (!entry) return <div key={idx} style={{ width: 140 }} />
                   const realRank = idx === 0 ? 1 : idx === 1 ? 0 : 2
@@ -78,7 +79,7 @@ export default function Leaderboard() {
             {/* Table */}
             <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .2 }}
               style={{ borderRadius: 18, border: '1px solid rgba(255,255,255,.07)', background: '#161616', overflow: 'hidden' }}>
-              <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse' }} className="lb-table">
                 <thead>
                   <tr style={{ borderBottom: '1px solid rgba(255,255,255,.07)' }}>
                     {['Rank', 'Name', 'College', 'Avg Score', 'Sessions', 'Top Grade'].map(h => (

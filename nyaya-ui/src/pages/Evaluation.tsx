@@ -45,7 +45,7 @@ export default function Evaluation() {
   return (
     <div style={{ minHeight: '100vh', background: '#111' }}>
       <Navbar />
-      <div style={{ maxWidth: 1400, margin: '0 auto', padding: '48px 48px' }}>
+      <div style={{ maxWidth: 1400, margin: '0 auto', padding: '48px 48px' }} className="eval-wrapper">
         {loading && (
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '128px 0', gap: 16 }}>
             <motion.div animate={{ rotate: 360 }} transition={{ duration: 1.2, repeat: Infinity, ease: 'linear' }}
@@ -64,7 +64,7 @@ export default function Evaluation() {
             </div>
 
             {/* Hero score card */}
-            <div className="nyaya-card flex items-center gap-8">
+            <div className="nyaya-card flex items-center gap-8 eval-hero">
               {/* Big score */}
               <div className="text-center flex-shrink-0">
                 <div style={{ fontFamily: 'Playfair Display, serif', fontSize: 72, color: '#C9A84C', lineHeight: 1 }}>{data.overall_score}</div>
@@ -121,7 +121,7 @@ export default function Evaluation() {
             </div>
 
             {/* Strengths + Weaknesses */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4 eval-sw-grid">
               <div className="nyaya-card">
                 <h2 className="font-serif text-base mb-4 flex items-center gap-2" style={{ color: '#6DBF8A' }}>
                   <span>✓</span> Strengths
@@ -194,7 +194,7 @@ export default function Evaluation() {
             )}
 
             {/* Actions */}
-            <div className="flex gap-3">
+            <div className="flex gap-3 closing-actions">
               <button onClick={() => { clearSession(); nav('/dashboard') }} className="btn-gold flex-1">
                 ← New Case
               </button>
