@@ -142,7 +142,10 @@ async def get_session_history(user_id: str, db: AsyncSession = Depends(get_db)):
     history = []
     for s in sessions:
         score_result = await db.execute(
-            select(PerformanceScore).where(PerformanceScore.session_id == s.id)
+            select(PerformanceScore)
+            .where(PerformanceScore.session_id == s.id)
+            .order_by(PerformanceScore.created_at.desc())
+            .limit(1)
         )
         perf = score_result.scalar_one_or_none()
         history.append({
